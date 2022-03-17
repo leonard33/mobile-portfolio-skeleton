@@ -1,0 +1,102 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 375px;
+  background: #1C1A19;
+  height: 100vh;
+  margin: 0 auto;
+}
+.container-top{
+  top: 0;
+  display: flex;
+  width: 375px;
+  height: 92px;
+  background: #3C3A39;
+  align-items: center;
+  justify-content: space-between;
+}
+.owner {
+  position: static;
+  width: 140px;
+  height: 24px;
+  left: 12px;
+  top: 10px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+}
+.menu-button {
+  padding: 8px;
+  color: #FFFFFF;
+  position: static;
+  width: 40px;
+  height: 40px;
+  right: 24px;
+  top: calc(50% - 40px/3);
+}
+.fa {
+  margin: 10px;
+}
+.name {
+  position: static;
+  margin-top: 100px;
+  width: 327px;
+  margin-left: 25px;
+  height: 124px;
+  font-family: 'Crete Round';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: 0.37px;
+  color: orange;
+}
+.my-title {
+  position: static;
+  width: 327px;
+  height: 27px;
+  margin: 10px auto;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  display: flex;
+  color: #FFF5E1;
+}
+.info {
+  position: static;
+  width: 327px;
+  height: 123px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+  margin: 10px 28px;
+}
+.socials {
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  height: 50px;
+  width: 200px;
+  margin-left: 10px;
+}
+.decoration .everal {
+  position: absolute;
+  right: 28.7rem;
+  bottom: 30px;
+}
+.decoration .top {
+  position: absolute;
+  right: 31rem;
+  bottom: 88px;
+  padding: 5px;
+}
