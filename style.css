@@ -210,7 +210,7 @@ a {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  color: #091E42;
+  color: #091e42;
 }
 
 .post h6 {
@@ -244,8 +244,7 @@ a {
 }
 
 button { 
-  font-family: 'Inter';
-  font-style: normal;
+  font-family: 'Inter',sans-serif;
   font-weight: 900;
   font-size: 14px;
   line-height: 24px;
@@ -260,4 +259,3 @@ button {
   margin-bottom: 20px;
   border: none;
 }
-
