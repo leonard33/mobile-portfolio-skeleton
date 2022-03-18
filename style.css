@@ -29,7 +29,7 @@
   height: 24px;
   left: 12px;
   top: 10px;
-  font-family: 'Roboto',sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -41,12 +41,12 @@
 
 .menu-button {
   padding: 8px;
-  color: #ffffff;
+  color: #fff;
   position: static;
   width: 40px;
   height: 40px;
   right: 24px;
-  top: calc(50% - 40px/3);
+  top: 10px;
 }
 
 .fa {
@@ -59,7 +59,7 @@
   width: 327px;
   margin-left: 25px;
   height: 124px;
-  font-family: 'Crete Round',sans-serif;
+  font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 56px;
@@ -73,13 +73,12 @@
   width: 327px;
   height: 27px;
   margin: 10px auto;
-  font-family: 'Roboto';
-  font-style: normal;
+  font-family: 'Roboto', sans-serif;
   font-weight: 700;
   font-size: 24px;
   line-height: 32px;
   display: flex;
-  color: #FFF5E1;
+  color: #fff5e1;
 }
 
 .info {
@@ -91,7 +90,7 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  color: #ffffff;
+  color: #fff;
   margin: 10px 28px;
 }
 
@@ -130,14 +129,14 @@
   padding: 5px;
 }
 
-decoration .downmost {
+.decoration .downmost {
   position: absolute;
   left: 22.35rem;
   bottom: 200px;
   padding: 5px;
 }
 
-decoration .last {
+.decoration .last {
   position: absolute;
   left: 17.7rem;
   bottom: 30px;
