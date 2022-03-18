@@ -13,7 +13,7 @@
   margin: 0;
 }
 
-.header{
+.header {
   top: 0;
   display: flex;
   width: 375px;
@@ -85,7 +85,7 @@
   position: static;
   width: 327px;
   height: 123px;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -102,6 +102,7 @@
   width: 200px;
   margin-left: 10px;
 }
+
 .decoration .everal {
   position: absolute;
   left: 17.7rem;
