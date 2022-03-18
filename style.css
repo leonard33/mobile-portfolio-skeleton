@@ -151,3 +151,114 @@ li {
 a {
   color: inherit;
 }
+
+.work-intro {
+  position: static;
+  margin-top: 250px;
+  margin-bottom: 100px;
+  width: 375px;
+  height: 83px;
+  color: white;
+  font-family: 'Crete Round', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  padding: 80px 30px;
+  text-align: center;
+  border-bottom: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #1C1A19;
+}
+
+.image-holder {
+  width: 375px;
+  height: 237px;
+  margin-bottom: 20px;
+  margin-left: 0;
+  background-color: rgb(230, 101, 16);
+}
+
+.image-holder img {
+  width: 100%;
+  height: 100%;
+  padding: 24px;
+}
+
+.post-title {
+  width: 327px;
+  height: 36px;
+  font-family: 'Crete Round', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #091E42;
+}
+
+.post {
+  width: 327px;
+  height: 147px;
+  margin-left: 30px;
+  margin-right: 24px;
+  justify-content: center;
+  text-align: left;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #091E42;
+}
+
+.post h6 {
+  width: 200px;
+  height: 147px;
+}
+
+.grid-container {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: auto;
+  gap: 10px;
+  margin-bottom: 20px;
+  width: 100px;
+  margin-left: 30px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px
+}
+
+.grid-container > div {
+  text-align: center;
+  padding: 5px;
+  font-size: 14px;
+  border: 1px solid#1c1a19;
+}
+
+.grid-container > div:hover {
+  cursor: pointer;
+}
+
+button {
+  
+font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 14px;
+line-height: 24px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.03em;
+color: #FFFFFF;
+background-color: rgb(230, 101, 16);
+margin-left: 30px;
+padding: 8px 10px;
+margin-bottom: 20px;
+border: none;
+}
