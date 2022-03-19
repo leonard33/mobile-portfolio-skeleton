@@ -257,10 +257,10 @@ a {
   margin-bottom: 20px;
   border: none;
 }
+
 .job1 {
   height: 386px;
   width: 327px;
-  border-radius: 0px;
   background-image: url("/assets/bg.png");
   margin: 30px;
   text-align: center;
@@ -268,11 +268,11 @@ a {
   border: 1px solid white;
 }
 
-.job1 h2{
+.job1 h2 {
   width: 295px;
   height: 81px;
   left: 16px;
-  margin-top: 5rem ;
+  margin-top: 5rem;
   display: flex;
   font-family: 'Crete Round', sans-serif;
   font-style: normal;
@@ -286,7 +286,7 @@ a {
   height: 87px;
   width: 295px;
   margin-top: 17px;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -433,13 +433,13 @@ a {
   color: white;
 }
 
-
 .heading {
   display: flex;
   flex-direction: row;
   margin-left: auto;
 }
-.heading h5{
+
+.heading h5 {
   width: 200px;
   height: 24px;
   font-family: 'Inter', sans-serif;
@@ -450,13 +450,12 @@ a {
   display: flex;
   align-items: center;
   color: #fff;
-  align-items: center;
 }
 
 .dot {
   width: 18px;
   height: 18px;
-  background: #ff6B00;
+  background: #ff6b00;
   border-radius: 150px;
   margin-left: 100px;
 }
@@ -464,20 +463,18 @@ a {
 .box {
   width: 18px;
   height: 18px;
-  background: #ff6B00;
+  background: #ff6b00;
   margin-right: 10px;
 }
 
 .box-rotate {
   width: 18px;
   height: 18px;
-  background: #ff6B00;
+  background: #ff6b00;
   margin-right: 10px;
   transform: rotate(-45deg);
-  margin-right: 10px;
 }
 
 .skill {
- margin-left: 10px;
+  margin-left: 10px;
 }
-
