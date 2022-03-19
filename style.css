@@ -334,10 +334,6 @@ a {
   color: white;
 }
 
-.grid-container2 > div:hover {
-  cursor: pointer;
-}
-
 .me {
   height: 1901px;
   width: 375px;
