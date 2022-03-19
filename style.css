@@ -237,10 +237,6 @@ a {
   border: 1px solid#1c1a19;
 }
 
-.grid-container > div:hover {
-  cursor: pointer;
-}
-
 .work-button {
   font-family: 'Inter', sans-serif;
   font-weight: 900;
