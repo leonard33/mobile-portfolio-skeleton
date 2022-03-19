@@ -230,7 +230,7 @@ a {
   font-size: 15px;
 }
 
-.grid-container > div {
+.grid-container div {
   text-align: center;
   padding: 5px;
   font-size: 14px;
