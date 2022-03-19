@@ -250,7 +250,6 @@ a {
   background-color: rgb(230, 101, 16);
   margin-left: 30px;
   padding: 8px 10px;
-  margin-bottom: 20px;
   border: none;
 }
 
@@ -279,6 +278,9 @@ a {
 }
 
 .info-data {
+  position: static;
+  left: 16px;
+  top: 101px;
   height: 87px;
   width: 295px;
   margin-top: 17px;
@@ -289,7 +291,7 @@ a {
   line-height: 24px;
   color: #fff;
   text-align: left;
-  margin-left: 20px;
+  margin-left: 12px;
 }
 
 .grid-container2 {
@@ -307,12 +309,18 @@ a {
   font-size: 15px;
 }
 
-.grid-container2 > div {
+.grid-container2 li {
   text-align: center;
   padding: 5px;
   font-size: 14px;
   background: rgba(255, 255, 255, 0.24);
-  color: white;
+  color: #fff;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+ul li a {
+  text-decoration: none;
 }
 
 .job-button {
@@ -320,10 +328,10 @@ a {
   width: 325px;
   height: 48px;
   margin-bottom: 0;
-  border: 1px solid rgb(230, 101, 16);
+  border: none;
   align-items: center;
   justify-content: center;
-  background-color: rgb(230, 101, 16);
+  background: #ff6b00;
   padding: 10px 30px;
   font-size: 20px;
   font-weight: 700;
