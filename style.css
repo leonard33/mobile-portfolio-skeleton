@@ -175,13 +175,11 @@ a {
   height: 237px;
   margin-bottom: 20px;
   margin-left: 0;
-  background-color: rgb(230, 101, 16);
 }
 
 .image-holder img {
   width: 100%;
   height: 100%;
-  padding: 24px;
 }
 
 .post-title {
@@ -243,7 +241,7 @@ a {
   cursor: pointer;
 }
 
-button {
+.work-button {
   font-family: 'Inter', sans-serif;
   font-weight: 900;
   font-size: 14px;
@@ -259,3 +257,227 @@ button {
   margin-bottom: 20px;
   border: none;
 }
+.job1 {
+  height: 386px;
+  width: 327px;
+  border-radius: 0px;
+  background-image: url("/assets/bg.png");
+  margin: 30px;
+  text-align: center;
+  justify-content: center;
+  border: 1px solid white;
+}
+
+.job1 h2{
+  width: 295px;
+  height: 81px;
+  left: 16px;
+  margin-top: 5rem ;
+  display: flex;
+  font-family: 'Crete Round', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+  color: #fff;
+}
+
+.info-data {
+  height: 87px;
+  width: 295px;
+  margin-top: 17px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+  text-align: left;
+  margin-left: 20px;
+}
+
+.grid-container2 {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: auto;
+  gap: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100px;
+  margin-left: 30px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.grid-container2 > div {
+  text-align: center;
+  padding: 5px;
+  font-size: 14px;
+  background: rgba(255, 255, 255, 0.24);
+  color: white;
+}
+
+.job-button {
+  display: flex;
+  width: 325px;
+  height: 48px;
+  margin-bottom: 0;
+  border: 1px solid rgb(230, 101, 16);
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(230, 101, 16);
+  padding: 10px 30px;
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+}
+
+.grid-container2 > div:hover {
+  cursor: pointer;
+}
+
+.me {
+  height: 1901px;
+  width: 375px;
+  background: #1c1a19;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #1c1a19;
+}
+
+.about-me h1 {
+  position: static;
+  width: 327px;
+  height: 79px;
+  margin-top: 150px;
+  margin-left: 24px;
+  font-family: 'Crete Round', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 67px;
+  line-height: 88px;
+  letter-spacing: 0.37px;
+  color: #ff6b00;
+  text-align: center;
+}
+
+.about-info {
+  width: 327px;
+  height: 148px;
+  margin: 10px auto;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #f4f5f7;
+}
+
+.about-button {
+  font-family: 'Inter', sans-serif;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #fff;
+  background-color: rgb(230, 101, 16);
+  margin-left: 30px;
+  padding: 12px 14px;
+  margin-top: 30px;
+  border: none;
+}
+
+.wall {
+  position: absolute;
+  left: 315px;
+  z-index: 10;
+}
+
+.try {
+  position: absolute;
+  left: 280px;
+  top: 206rem;
+  z-index: 3;
+}
+
+.vector4 {
+  position: absolute;
+  left: 280px;
+  top: 209rem;
+  z-index: 2;
+}
+
+.straight {
+  margin-top: 200px;
+  margin-left: 24px;
+  border: 1px solid #fff;
+}
+
+.grid-container4 {
+  display: grid;
+  grid-auto-flow: row;
+  grid-auto-rows: auto;
+  gap: 40px;
+  margin-top: 100px;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  color: white;
+}
+
+
+.heading {
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+}
+.heading h5{
+  width: 200px;
+  height: 24px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  align-items: center;
+}
+
+.dot {
+  width: 18px;
+  height: 18px;
+  background: #ff6B00;
+  border-radius: 150px;
+  margin-left: 100px;
+}
+
+.box {
+  width: 18px;
+  height: 18px;
+  background: #ff6B00;
+  margin-right: 10px;
+}
+
+.box-rotate {
+  width: 18px;
+  height: 18px;
+  background: #ff6B00;
+  margin-right: 10px;
+  transform: rotate(-45deg);
+  margin-right: 10px;
+}
+
+.skill {
+ margin-left: 10px;
+}
+
