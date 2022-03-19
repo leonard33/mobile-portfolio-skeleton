@@ -22,4 +22,4 @@ Show your support
 Give a ⭐️ if you like this project!
 
 Acknowledgment:
-More thanks for the knowledge on styling by using Figms
+More thanks for the knowledge on styling by using Figma
