@@ -295,13 +295,12 @@ a {
 }
 
 .grid-container2 {
-  display: grid;
-  grid-auto-flow: column;
-  grid-auto-columns: auto;
+  float: left;
+  display: flex;
   gap: 10px;
   margin-top: 20px;
   margin-bottom: 20px;
-  width: 100px;
+  justify-content: center;
   margin-left: 30px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
