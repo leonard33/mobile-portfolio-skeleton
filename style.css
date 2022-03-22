@@ -29,7 +29,7 @@
   height: 24px;
   left: 12px;
   top: 10px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -59,7 +59,7 @@
   width: 327px;
   margin-left: 25px;
   height: 124px;
-  font-family: 'Crete Round', sans-serif;
+  font-family: "Crete Round", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 56px;
@@ -73,7 +73,7 @@
   width: 327px;
   height: 27px;
   margin: 10px auto;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 24px;
   line-height: 32px;
@@ -85,7 +85,7 @@
   position: static;
   width: 327px;
   height: 123px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -158,7 +158,7 @@ a {
   margin-bottom: 100px;
   width: 375px;
   height: 83px;
-  font-family: 'Crete Round', sans-serif;
+  font-family: "Crete Round", sans-serif;
   font-weight: 400;
   font-size: 20px;
   padding: 80px 30px;
@@ -185,7 +185,7 @@ a {
 .post-title {
   width: 327px;
   height: 36px;
-  font-family: 'Crete Round', sans-serif;
+  font-family: "Crete Round", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -203,7 +203,7 @@ a {
   margin-right: 24px;
   justify-content: center;
   text-align: left;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -224,7 +224,7 @@ a {
   margin-bottom: 20px;
   width: 100px;
   margin-left: 30px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -238,7 +238,7 @@ a {
 }
 
 .work-button {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 900;
   font-size: 14px;
   line-height: 24px;
@@ -269,7 +269,7 @@ a {
   left: 16px;
   margin-top: 5rem;
   display: flex;
-  font-family: 'Crete Round', sans-serif;
+  font-family: "Crete Round", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
@@ -284,7 +284,7 @@ a {
   height: 87px;
   width: 295px;
   margin-top: 17px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -302,7 +302,7 @@ a {
   margin-bottom: 20px;
   justify-content: center;
   margin-left: 30px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -352,7 +352,7 @@ ul li a {
   height: 79px;
   margin-top: 150px;
   margin-left: 24px;
-  font-family: 'Crete Round', sans-serif;
+  font-family: "Crete Round", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 67px;
@@ -366,7 +366,7 @@ ul li a {
   width: 327px;
   height: 148px;
   margin: 10px auto;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -375,7 +375,7 @@ ul li a {
 }
 
 .about-button {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 900;
   font-size: 16px;
   line-height: 24px;
@@ -421,11 +421,11 @@ ul li a {
   display: grid;
   grid-auto-flow: row;
   grid-auto-rows: auto;
-  gap: 40px;
+  gap: 35px;
   margin-top: 100px;
   justify-content: center;
   text-align: center;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -441,7 +441,7 @@ ul li a {
 .heading h5 {
   width: 200px;
   height: 24px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -476,4 +476,55 @@ ul li a {
 
 .skill {
   margin-left: 10px;
+}
+
+.contact-form {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+}
+
+.contact-form p {
+  width: 327px;
+  height: 216px;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  line-height: 44px;
+  text-align: center;
+  font-size: 32px;
+  color: #172b4d;
+  margin: 100px auto;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form ul li {
+  list-style: none;
+}
+
+input[type="text"],[type="email"] {
+  width: 327px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #000;
+  padding: 12px 15px;
+  margin: 10px;
+  text-align: left;
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+textarea {
+  width: 327px;
+  height: 114px;
+  margin: 20px 8px;
+  padding: 12px 15px;
 }
