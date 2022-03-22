@@ -497,8 +497,8 @@ ul li a {
   text-align: center;
   font-size: 32px;
   color: #172b4d;
-  margin: 100px auto;
-  padding-top: 2rem;
+  margin: 200px auto;
+  padding-top: 8rem;
 }
 
 form {
@@ -553,5 +553,15 @@ textarea {
   position: relative;
   left: 72px;
   top: -1.8rem;
-  margin-bottom: 10rem;
+  margin-bottom: 7rem;
+}
+
+.footer-socials {
+  display: flex;
+  align-items: center;
+  border-top: 2px solid #e5e5e5;
+  padding-top: 20px;
+  margin: 10px auto;
+  justify-content: center;
+  color: #505f79;
 }
