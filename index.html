@@ -215,21 +215,31 @@
             I'm always interested in hearing about new projects, so if you'd
             like to chat please get in touch.
           </p>
-          <form action="" method="">
+          <form action="https://formspree.io/f/xbjwkvgr" method="POST">
             <ul>
               <li>
-                <input type="text" name="name" placeholder="Full name" />
+                <input
+                  type="text"
+                  name="name"
+                  placeholder="Full name"
+                  required
+                  maxlength="30"
+                />
               </li>
               <li>
                 <input
                   type="email"
                   name="email"
-                  id="email"
                   placeholder="Email address"
+                  required
                 />
               </li>
               <li>
-                <textarea placeholder="Enter text here"></textarea>
+                <textarea
+                  placeholder="Enter text here"
+                  required
+                  maxlength="500"
+                ></textarea>
               </li>
               <li>
                 <button class="submit-btn" type="submit">Get in touch</button>
