@@ -507,10 +507,6 @@ form {
   align-items: center;
 }
 
-form ul li {
-  list-style: none;
-}
-
 input[type="text"],
 [type="email"] {
   width: 327px;
