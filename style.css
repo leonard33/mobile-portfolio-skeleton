@@ -571,10 +571,10 @@ textarea {
 }
 
 button:hover {
-   cursor: pointer;
-   background-color: white;
-   border: 2px solid orange;
-   color: orange;
+  cursor: pointer;
+  background-color: white;
+  border: 2px solid orange;
+  color: orange;
 }
 
 .item:hover {
