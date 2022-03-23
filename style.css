@@ -323,6 +323,10 @@ form ul li {
   text-decoration: none;
 }
 
+.grid-container2 li:hover {
+  background: orange;
+}
+
 ul li a {
   text-decoration: none;
 }
@@ -564,4 +568,18 @@ textarea {
   margin: 10px auto;
   justify-content: center;
   color: #505f79;
+}
+
+button:hover {
+   cursor: pointer;
+   background-color: white;
+   border: 2px solid orange;
+   color: orange;
+}
+
+.item:hover {
+  cursor: pointer;
+  color: white;
+  font-weight: 700;
+  background: #091e42;
 }
