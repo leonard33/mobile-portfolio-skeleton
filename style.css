@@ -14,13 +14,15 @@
 }
 
 .header {
-  top: 0;
-  display: flex;
+  position: absolute;
   width: 375px;
-  height: 92px;
-  background: #3c3a39;
+  height: 72px;
+  left: 0px;
+  top: 0px;
+  display: flex;
   align-items: center;
   justify-content: space-between;
+  background: #3C3A39;
 }
 
 .owner {
@@ -253,7 +255,7 @@ a {
   border: none;
 }
 
-.job1 {
+.job1, .job2, .job3, .job4, .job5, .job6 {
   height: 386px;
   width: 327px;
   background-image: url("/assets/bg.png");
@@ -263,7 +265,7 @@ a {
   border: 1px solid white;
 }
 
-.job1 h2 {
+.job1 h2, .job2 h2, .job3 h2, .job4 h2, .job5 h2, .job6 h2 {
   width: 295px;
   height: 81px;
   left: 16px;
@@ -291,7 +293,7 @@ a {
   line-height: 24px;
   color: #fff;
   text-align: left;
-  margin-left: 12px;
+  margin-left: 32px;
 }
 
 .grid-container2 {
@@ -582,4 +584,317 @@ button:hover {
   color: white;
   font-weight: 700;
   background: #091e42;
+}
+
+menu {
+  display: none;
+}
+
+.deco {
+  display: none;
+}
+
+.work-intro img {
+  display: none;
+}
+
+.my-info img {
+  display: none;
+}
+
+@media only screen and (min-width: 992px) {
+  * {
+    background-color: none;
+  }
+
+  nav {
+    display: none;
+  }
+
+  menu ul {
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+}
+
+menu ul li a, .socials ul li a {
+  margin-right: 20px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  text-decoration: none;
+  color: #fff;
+}
+
+  .header {
+    width: 100vw;
+    height: 100px;
+    padding: 40px 10px;
+    position: sticky;
+  }
+
+  menu {
+    display: block;
+  }
+
+  .banner {
+    display: flex;
+    position: static;
+    width: 100vw;
+    height: 150vh;
+    padding: 85px 10px;
+    background-color: #1c1a19;
+  }
+
+  .decoration {
+    display: none;
+  }
+
+  .banner * {
+    order: 999;
+  }
+  .banner .socials {
+    order: 1;
+    flex-basis: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 12rem;
+  }
+
+  .deco {
+    position: absolute;
+    top: 6rem;
+    left: 51.55rem;
+    height: 40rem;
+    display: block;
+  }
+
+  .work-intro {
+    display: flex;
+    margin-top: -1px;
+    flex-direction: row;
+    width: 100vw;
+    padding: 140px 10px;
+    border: none;
+    margin-bottom: none;
+  }
+
+  .work-intro img {
+    display: block;
+    width: 794px;
+    height: 0px;
+    left: 339px;
+    border: 1px solid #212121
+  }
+
+  .work-intro h2 {
+   padding: 0 40px;
+    height: 52px;
+    font-family: 'Crete Round';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    display: flex;
+    align-items: center;
+    color: #091e42;
+  }
+
+  .poster {
+    display: flex;
+    width: 100vw;
+  }
+
+  .image-holder {
+    width: 684px;
+    height: 448px;
+  }
+  .image-holder img {
+    width: 100%;
+    height: 100%;
+    padding: 0 30px;
+    object-fit: contain;
+  }
+
+  .post-information {
+    width: 458px;
+    margin-left: -20px;
+    padding: 25px 0;
+  }
+  .post-title {
+    width: 458px;
+  }
+
+  .post-title h3 {
+    width: 458px;
+    height: 48px;
+    font-family: 'Crete Round', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    align-items: center;
+    color: #091e42;
+    margin-left: 20px;
+  }
+
+  .post p {
+    width: 448px;
+    height: 140px;
+    margin: 30px 0;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #091e42;
+  }
+
+  .grid-container {
+    margin: 30px;
+  }
+
+  .projects {
+    width: 100vw;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .job1, .job2, .job3, .job4, .job5, .job6, .job7 {
+    height: 435px;
+    width: 369px;
+    margin: 20px 0;
+    border: 1px solid #3E3C3C;
+  }
+
+  .job1 {
+    display: none;
+  }
+  
+  .job7 {
+    background-image: url("./assets/post6.png");
+  }
+  
+  .job2 {
+    background-image: url("./assets/post3.svg");
+  }
+
+  .job3 {
+    background-image: url("./assets/post4.svg");
+  }
+  
+  .job4 {
+    background-image: url("./assets/post1.svg");
+  }
+
+  .job5 {
+    background-image: url("./assets/post7.svg");
+  }
+  
+  .job6 {
+    background-image: url("./assets/post4.svg");
+  }
+
+  .job-button {
+    display: none;
+  }
+
+  .job1 h2, .job2 h2, .job3 h2, .job4 h2, .job5 h2, .job6 h2 {
+    margin-top: 11rem;
+  }
+  
+  .me {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 1195px;
+    background: #262626;
+  }
+  .sub-links {
+    display: flex;
+    width: 100vw;
+    justify-content: space-around;
+  }
+
+  .ornament {
+    display: none;
+  }
+
+  .my-info {
+    display: flex;
+    width: 100vw;
+    justify-content: space-between;
+  }
+
+  .about-decor {
+    display: flex;
+  }
+
+  .about-info {
+    position: relative;
+  }
+
+  .my-info img {
+    display: block;
+  }
+
+  .sect-about {
+    width: 400px;
+  }
+
+  .about-me h2 {
+    margin-top: -20px;
+    margin-bottom: 20px;
+  }
+
+  .straight {
+    margin-top: 100px;
+    margin-left: 24px;
+    width: 70rem;
+    height: 1px;
+  }
+
+  .footer-form-info {
+    display: flex;
+    width: 100vw;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .contact-form {
+    width: 100vw;
+    display: flex;
+  }
+
+  form {
+    margin-top: 100px;
+    width: 652px;
+  }
+
+  .footer-info p {
+    margin-top: -40px;
+    padding-top: -40px;
+  }
+
+  input[type="text"], [type="email"] {
+    width: 625px;
+  }
+
+  .submit-btn {
+    margin-left: -70px;
+  }
+
+  textarea {
+    width: 625px;
+    margin-bottom: 20px;
+  }
+
+  ::-webkit-scrollbar{
+    display: none;
+  }
 }
