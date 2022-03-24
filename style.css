@@ -875,7 +875,8 @@ button:hover {
   .sub-links {
     display: flex;
     width: 100vw;
-    padding: 3rem 10px;
+    height: 50rem;
+    margin-bottom: 150px;
     justify-content: space-around;
   }
 
@@ -890,6 +891,7 @@ button:hover {
   .my-info {
     display: flex;
     width: 100vw;
+    height: 50rem;
     margin-top: 150px;
     justify-content: space-between;
   }
@@ -906,6 +908,8 @@ button:hover {
 
   .my-info img {
     display: block;
+    width: 673.27px;
+    height: 353.1px;
   }
 
   .sect-about {
@@ -943,10 +947,10 @@ button:hover {
   }
 
   .straight {
-    margin-top: 100px;
     margin-left: 24px;
     width: 70rem;
     height: 1px;
+    margin-top: -2px;
   }
 
   .footer-form-info {
