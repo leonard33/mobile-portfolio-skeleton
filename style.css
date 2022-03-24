@@ -17,12 +17,12 @@
   position: absolute;
   width: 375px;
   height: 72px;
-  left: 0px;
-  top: 0px;
+
+
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: #3C3A39;
+  background: #3c3a39;
 }
 
 .owner {
@@ -255,7 +255,12 @@ a {
   border: none;
 }
 
-.job1, .job2, .job3, .job4, .job5, .job6 {
+.job1,
+.job2, 
+.job3, 
+.job4, 
+.job5, 
+.job6 {
   height: 386px;
   width: 327px;
   background-image: url("/assets/bg.png");
@@ -586,7 +591,7 @@ button:hover {
   background: #091e42;
 }
 
-menu {
+.menu {
   display: none;
 }
 
@@ -603,30 +608,30 @@ menu {
 }
 
 @media only screen and (min-width: 992px) {
-  * {
-    background-color: none;
-  }
+ 
+
+
 
   nav {
     display: none;
   }
 
-  menu ul {
-    list-style-type: none;
-    text-decoration: none;
-    display: flex;
-}
+  .menu ul {
+   list-style-type: none;
+   text-decoration: none;
+   display: flex;
+  }
 
-menu ul li a, .socials ul li a {
-  margin-right: 20px;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 15px;
-  line-height: 20px;
-  text-decoration: none;
-  color: #fff;
-}
+  .menu ul li a, .socials ul li a {
+   margin-right: 20px;
+   font-family: 'Inter', sans-serif;
+   font-style: normal;
+   font-weight: 600;
+   font-size: 15px;
+   line-height: 20px;
+   text-decoration: none;
+   color: #fff;
+  }
 
   .header {
     width: 100vw;
@@ -635,7 +640,7 @@ menu ul li a, .socials ul li a {
     position: sticky;
   }
 
-  menu {
+  .menu {
     display: block;
   }
 
@@ -657,7 +662,6 @@ menu ul li a, .socials ul li a {
   }
   .banner .socials {
     order: 1;
-    flex-basis: 1;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -679,21 +683,19 @@ menu ul li a, .socials ul li a {
     width: 100vw;
     padding: 140px 10px;
     border: none;
-    margin-bottom: none;
   }
 
   .work-intro img {
     display: block;
     width: 794px;
-    height: 0px;
     left: 339px;
-    border: 1px solid #212121
+    border: 1px solid #212121;
   }
 
   .work-intro h2 {
-   padding: 0 40px;
+    padding: 0 40px;
     height: 52px;
-    font-family: 'Crete Round';
+    font-family: 'Crete Round', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 40px;
@@ -712,6 +714,7 @@ menu ul li a, .socials ul li a {
     width: 684px;
     height: 448px;
   }
+
   .image-holder img {
     width: 100%;
     height: 100%;
@@ -724,6 +727,7 @@ menu ul li a, .socials ul li a {
     margin-left: -20px;
     padding: 25px 0;
   }
+
   .post-title {
     width: 458px;
   }
@@ -765,21 +769,27 @@ menu ul li a, .socials ul li a {
     justify-content: space-around;
   }
 
-  .job1, .job2, .job3, .job4, .job5, .job6, .job7 {
+  .job1, 
+  .job2, 
+  .job3, 
+  .job4, 
+  .job5, 
+  .job6, 
+  .job7 {
     height: 435px;
     width: 369px;
     margin: 20px 0;
-    border: 1px solid #3E3C3C;
+    border: 1px solid #3e3c3c;
   }
 
   .job1 {
     display: none;
   }
-  
+
   .job7 {
     background-image: url("./assets/post6.png");
   }
-  
+
   .job2 {
     background-image: url("./assets/post3.svg");
   }
@@ -787,7 +797,7 @@ menu ul li a, .socials ul li a {
   .job3 {
     background-image: url("./assets/post4.svg");
   }
-  
+
   .job4 {
     background-image: url("./assets/post1.svg");
   }
@@ -795,7 +805,7 @@ menu ul li a, .socials ul li a {
   .job5 {
     background-image: url("./assets/post7.svg");
   }
-  
+
   .job6 {
     background-image: url("./assets/post4.svg");
   }
@@ -804,10 +814,15 @@ menu ul li a, .socials ul li a {
     display: none;
   }
 
-  .job1 h2, .job2 h2, .job3 h2, .job4 h2, .job5 h2, .job6 h2 {
+  .job1 h2,
+  .job2 h2, 
+  .job3 h2, 
+  .job4 h2, 
+  .job5 h2, 
+  .job6 h2 {
     margin-top: 11rem;
   }
-  
+
   .me {
     display: flex;
     flex-direction: column;
@@ -815,6 +830,7 @@ menu ul li a, .socials ul li a {
     height: 1195px;
     background: #262626;
   }
+
   .sub-links {
     display: flex;
     width: 100vw;
@@ -881,7 +897,8 @@ menu ul li a, .socials ul li a {
     padding-top: -40px;
   }
 
-  input[type="text"], [type="email"] {
+  input[type="text"],
+  [type="email"] {
     width: 625px;
   }
 
@@ -894,7 +911,7 @@ menu ul li a, .socials ul li a {
     margin-bottom: 20px;
   }
 
-  ::-webkit-scrollbar{
+  ::-webkit-scrollbar {
     display: none;
   }
 }
