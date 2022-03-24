@@ -475,6 +475,7 @@ ul li a {
   height: 18px;
   background: #ff6b00;
   border-radius: 150px;
+  margin-right: -30px;
   margin-left: 100px;
 }
 
@@ -491,10 +492,6 @@ ul li a {
   background: #ff6b00;
   margin-right: 10px;
   transform: rotate(-45deg);
-}
-
-.skill {
-  margin-left: 10px;
 }
 
 .contact-form {
@@ -592,6 +589,10 @@ button:hover {
   color: white;
   font-weight: 700;
   background: #091e42;
+}
+
+.skill {
+  margin-left: 40px;
 }
 
 .menu {
@@ -882,9 +883,14 @@ button:hover {
     display: none;
   }
 
+  .dot {
+    margin-left: -10px;
+  }
+
   .my-info {
     display: flex;
     width: 100vw;
+    margin-top: 150px;
     justify-content: space-between;
   }
 
@@ -895,6 +901,7 @@ button:hover {
   .about-info {
     position: relative;
     margin-left: 140px;
+    width: 480px;
   }
 
   .my-info img {
@@ -917,6 +924,22 @@ button:hover {
 
   .about-button {
     margin-left: 140px;
+  }
+
+  .grid-container4 {
+    display: grid;
+    grid-auto-flow: row;
+    grid-auto-rows: auto;
+    gap: 35px;
+    margin-left: 5px;
+    margin-top: 100px;
+    justify-content: left;
+    text-align: left;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: white;
   }
 
   .straight {
