@@ -256,10 +256,10 @@ a {
 }
 
 .job1,
-.job2, 
-.job3, 
-.job4, 
-.job5, 
+.job2,
+.job3,
+.job4,
+.job5,
 .job6 {
   height: 386px;
   width: 327px;
@@ -270,7 +270,12 @@ a {
   border: 1px solid white;
 }
 
-.job1 h2, .job2 h2, .job3 h2, .job4 h2, .job5 h2, .job6 h2 {
+.job1 h2,
+.job2 h2,
+.job3 h2,
+.job4 h2,
+.job5 h2,
+.job6 h2 {
   width: 295px;
   height: 81px;
   left: 16px;
@@ -608,29 +613,25 @@ button:hover {
 }
 
 @media only screen and (min-width: 992px) {
- 
-
-
-
   nav {
     display: none;
   }
 
   .menu ul {
-   list-style-type: none;
-   text-decoration: none;
-   display: flex;
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
   }
 
   .menu ul li a, .socials ul li a {
-   margin-right: 20px;
-   font-family: 'Inter', sans-serif;
-   font-style: normal;
-   font-weight: 600;
-   font-size: 15px;
-   line-height: 20px;
-   text-decoration: none;
-   color: #fff;
+    margin-right: 20px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    text-decoration: none;
+    color: #fff;
   }
 
   .header {
@@ -769,12 +770,12 @@ button:hover {
     justify-content: space-around;
   }
 
-  .job1, 
-  .job2, 
-  .job3, 
-  .job4, 
-  .job5, 
-  .job6, 
+  .job1,
+  .job2,
+  .job3,
+  .job4,
+  .job5,
+  .job6,
   .job7 {
     height: 435px;
     width: 369px;
