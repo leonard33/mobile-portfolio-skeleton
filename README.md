@@ -1,26 +1,26 @@
 # Hello-microverse
 
-A project mobile portfolio skeeton
+A project web portfolio 
 
-Built With
-* Html
-* css
 
+Built With:
+Html
+css
 
 Live Demo (if available)
 
+Authors :
+Leonard Kombo
 
-Authors
-👤 Leonard Kombo
-* GitHub: @leonard33
-* Twitter: @leonardkombo1
-* LinkedIn: leonardkombo
+GitHub: @leonard33
+Twitter: @leonardkombo1
+LinkedIn: leonardkombo
 
+Show your support Give a starr rating if you like this project!
 
+Acknowledgment: 
 
-Show your support
-Give a ⭐️ if you like this project!
-
-Acknowledgment:
 More thanks for the knowledge on styling by using Figma
+
+More thanks for the knowledge on styling of web and mobile as both by using @ media
 
