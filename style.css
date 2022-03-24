@@ -874,6 +874,7 @@ button:hover {
   .sub-links {
     display: flex;
     width: 100vw;
+    padding: 3rem 10px;
     justify-content: space-around;
   }
 
