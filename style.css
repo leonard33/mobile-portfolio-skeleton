@@ -266,6 +266,8 @@ a {
   text-align: center;
   justify-content: center;
   border: 1px solid white;
+  transition: transform 1s ease-out;
+  transition-delay: 0.3s;
 }
 
 .job1 h2,
@@ -866,6 +868,15 @@ button:hover {
   .job5 h2,
   .job6 h2 {
     margin-top: 11rem;
+  }
+
+  .job2:hover,
+  .job3:hover,
+  .job4:hover,
+  .job5:hover,
+  .job6:hover,
+  .job7:hover {
+    transform: perspective(1000px) rotateY(360deg) translateZ(-20px);
   }
 
   .me {
