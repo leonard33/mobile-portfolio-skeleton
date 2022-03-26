@@ -1018,4 +1018,13 @@ button:hover {
     background: white;
     transform: perspective(50px) translateZ(10px);
   }
+
+  .deco:hover,
+  .my-info img:hover {
+    transform: perspective(500px) translateZ(-100px) translateX(50px);
+  }
+
+  .my-info img {
+    transition: transform 0.2s linear;
+  }
 }
