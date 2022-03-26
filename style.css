@@ -625,7 +625,7 @@ button:hover {
   .menu ul li a,
   .socials ul li a {
     margin-right: 20px;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 15px;
@@ -666,7 +666,7 @@ button:hover {
   .my-title {
     width: 566px;
     height: 24px;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 32px;
@@ -680,7 +680,7 @@ button:hover {
   .info {
     width: 566px;
     height: 123px;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -737,7 +737,7 @@ button:hover {
   .work-intro h2 {
     padding: 0 40px;
     height: 52px;
-    font-family: 'Crete Round', sans-serif;
+    font-family: "Crete Round", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 40px;
@@ -777,7 +777,7 @@ button:hover {
   .post-title h3 {
     width: 458px;
     height: 48px;
-    font-family: 'Crete Round', serif;
+    font-family: "Crete Round", serif;
     font-style: normal;
     font-weight: 400;
     font-size: 40px;
@@ -791,7 +791,7 @@ button:hover {
     width: 448px;
     height: 140px;
     margin: 30px 0;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -1008,5 +1008,14 @@ button:hover {
 
   .owner {
     animation: 1s ease-out 0s 1 rotation;
-    }
+  }
+
+  button {
+    transition: transform 0.5s;
+  }
+
+  button:hover {
+    background: white;
+    transform: perspective(50px) translateZ(10px);
+  }
 }
