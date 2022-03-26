@@ -1027,4 +1027,12 @@ button:hover {
   .my-info img {
     transition: transform 0.2s linear;
   }
+
+  .grid-container4 li a:hover {
+    transform: translateY(-10px);
+  }
+
+  .grid-container4 li a {
+    display: inline-block;
+  }
 }
