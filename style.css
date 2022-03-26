@@ -715,6 +715,7 @@ button:hover {
     left: 51.55rem;
     height: 40rem;
     display: block;
+    transition: transform 0.5s ease-in-out;
   }
 
   .work-intro {
@@ -820,7 +821,10 @@ button:hover {
     height: 435px;
     width: 369px;
     margin: 20px 0;
+    cursor: pointer;
     border: 1px solid #3e3c3c;
+    transition: transform 1s ease-out;
+    transition-delay: 0.3s;
   }
 
   .job1 {
@@ -992,4 +996,18 @@ button:hover {
   ::-webkit-scrollbar {
     display: none;
   }
+
+  @keyframes rotation {
+    0% {
+      transform: perspective(100px) rotateY(360deg);
+    }
+    100% {
+      transform: perspective(100px) rotateY(0deg);
+    }
+  }
+
+  .owner {
+    animation: 1s ease-out 0s 1 rotation;
+    }
+
 }
