@@ -7,7 +7,8 @@ Built With:
 Html
 css
 
-Live Demo (if available)
+Live Demo:
+https://leonard33.github.io/mobile-portfolio-skeleton/
 
 Authors :
 Leonard Kombo
@@ -26,3 +27,5 @@ More thanks for the knowledge on styling of web and mobile as both by using @ me
 
 More thanks to knowledge of deployment of the project with Github pages.
 
+License:
+This project is MIT licensed.
