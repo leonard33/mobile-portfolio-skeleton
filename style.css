@@ -261,7 +261,7 @@ a {
 .job6 {
   height: 386px;
   width: 327px;
-  background-image: url("/assets/bg.png");
+  background-image: url("./assets/bg.png");
   margin: 30px;
   text-align: center;
   justify-content: center;
