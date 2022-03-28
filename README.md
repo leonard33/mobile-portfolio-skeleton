@@ -46,14 +46,14 @@ To view a live demo of the project you can click on this [link](https://leonard3
 
 👤 **Author1**
   Leonard Kombo
-- GitHub: [@githubhandle](https://github.com/@leonard33)
-- Twitter: [@twitterhandle](https://twitter.com/@leonardkombo1)
+- GitHub: [@githubhandle](https://github.com/leonard33)
+- Twitter: [@twitterhandle](https://twitter.com/leonardkombo1)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/leonardkombo)
 
 👤 **Author2**
   Shaquille Ndunda
-- GitHub: [@githubhandle](https://github.com/@shaqdeff)
-- Twitter: [@twitterhandle](https://twitter.com/@shaquillendunda)
+- GitHub: [@githubhandle](https://github.com/shaqdeff)
+- Twitter: [@twitterhandle](https://twitter.com/shaquillendunda)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/Shaquille Ndunda)
 
 ## 🤝 Contributing
