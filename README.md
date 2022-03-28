@@ -31,7 +31,7 @@ Once the files are on your machine, open the mobile-portfolio-skeleton folder in
 <h3>Deployment:</h3>
 After opening the files in Visual Studio Code, press the Go Live button on the status bar (bottom of the window) to launch the files with Live Server.
 
-To view a live demo of the project you can click on this [link](https://leonard33.github.io/mobile-portfolio-skeleton/).
+To view a live demo of the project you can click on this https://leonard33.github.io/mobile-portfolio-skeleton/.
 
 <h3>Authors :</h3>
 Leonard Kombo
