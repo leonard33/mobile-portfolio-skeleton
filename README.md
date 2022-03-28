@@ -7,7 +7,7 @@ Built With:
 Html
 css
 
-Live Demo (if available)
+Live Demo: https://leonard33.github.io/mobile-portfolio-skeleton/
 
 Authors :
 Leonard Kombo
