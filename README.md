@@ -24,3 +24,5 @@ More thanks for the knowledge on styling by using Figma
 
 More thanks for the knowledge on styling of web and mobile as both by using @ media
 
+More thanks to knowledge of deployment of the project with Github pages.
+
