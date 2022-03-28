@@ -2,15 +2,15 @@
 
 Portfolio Project.
 
-Built With:
+<h3>Built With:</h3>
 Html
 css
 
 
-Getting Started
+<h3>Getting Started</h3>
 To get a local copy up and running follow these simple steps.
 
-Prerequisites:
+<h3>Prerequisites:</h3>
 A web browser (e.g. Mozilla Firefox, Google Chrome etc.)
 
 git: This is a version control system used for source code management.
@@ -21,18 +21,19 @@ Live Server: A web extension utility for Visual Studio Code that helps you live 
 
 Basic knowledge on HTML and CSS.
 
-Setup:
+<h3>Setup:</h3>
 With git, clone the code to your machine, or download the files directly.
 
 git clone https://github.com/leonard33/mobile-portfolio-skeleton.git
 
-Once the files are on your machine, open the mobile-portfolio-skeleton folder in [Visual Studio Code](https://code.visualstudio.com/).
+Once the files are on your machine, open the mobile-portfolio-skeleton folder in Visual Studio Code.
 
-Deployment:
+<h3>Deployment:</h3>
 After opening the files in Visual Studio Code, press the Go Live button on the status bar (bottom of the window) to launch the files with Live Server.
+
 To view a live demo of the project you can click on this [link](https://leonard33.github.io/mobile-portfolio-skeleton/).
 
-Authors :
+<h3>Authors :</h3>
 Leonard Kombo
 GitHub: @leonard33
 Twitter: @leonardkombo1
@@ -48,13 +49,16 @@ issues, and feature requests are welcome!
 
 Feel free to check the issues page.
 
-Show your support
+Show your support:
 Give a star if you like this project!
 
-Acknowledgments
+<h3>Acknowledgments:</h3>
 Hat tip to anyone whose code was used
-Inspiration
+
 More thanks for the knowledge on styling by using Figma
+
 More thanks for the knowledge on styling of web and mobile as both by using @ media
+
 More thanks to knowledge of deployment of the project with Github pages.
+
 etc.
