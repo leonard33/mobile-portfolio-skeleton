@@ -9,7 +9,7 @@
 - HTML
 - css
 
-## Live Demo (if available)
+## Live Demo 
 
 [Live Demo Link](https://leonard33.github.io/mobile-portfolio-skeleton/)
 
