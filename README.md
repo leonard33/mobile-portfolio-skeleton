@@ -1,5 +1,3 @@
-
-
 # My Web Portfolio
 
  This is a Microverse personal portfolio project created using a Figma template design.
@@ -70,7 +68,6 @@ Give a ⭐️ if you like this project!
 - Hat tip to anyone whose code was used
 - Inspiration
 - etc
-
 ## 📝 License
 
 This project is [MIT](./MIT.md) licensed.
