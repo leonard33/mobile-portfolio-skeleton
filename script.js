@@ -1,5 +1,5 @@
 // query selectors
-const menuButton = document.querySelector('.menu-button')
+const menuButton = document.querySelector('.menu-button');
 const closeButton = document.querySelector('.close');
 const menu= document.querySelector('#menu');
 const decoration =document.querySelector('.decoration');
