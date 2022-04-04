@@ -159,10 +159,6 @@ li {
   list-style-type: none;
 }
 
-a {
-  color: inherit;
-}
-
 .work-intro {
   position: static;
   margin-top: 350px;
@@ -350,6 +346,10 @@ form ul li {
 
 ul li a {
   text-decoration: none;
+}
+
+a {
+  color: inherit;
 }
 
 .job-button {
@@ -1009,7 +1009,6 @@ button:hover {
   ::-webkit-scrollbar {
     display: none;
   }
-
 }
 
 @media only screen and (max-width: 768px) {
@@ -1052,7 +1051,7 @@ button:hover {
     align-items: center;
     display: block;
     color: #fff5e1;
-    border-bottom:1px solid  #6f6c6b;
+    border-bottom: 1px solid  #6f6c6b;
   }
 
   .menu ul li:nth-child(4) {
@@ -1123,7 +1122,7 @@ button:hover {
     line-height: 44px;
     align-items: center;
     display: block;
-    color: #FFF5E1;
+    color: #fff5e1;
     border-bottom: 1px solid #6f6c6b;
   }
 
