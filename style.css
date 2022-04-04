@@ -49,6 +49,14 @@
   cursor: pointer;
 }
 
+a {
+  color: inherit;
+}
+
+ul li a {
+  text-decoration: none;
+}
+
 .menu ul li a {
   margin-right: 20px;
   font-family: 'Inter', sans-serif;
@@ -342,14 +350,6 @@ form ul li {
 
 .grid-container2 li:hover {
   background: orange;
-}
-
-ul li a {
-  text-decoration: none;
-}
-
-a {
-  color: inherit;
 }
 
 .job-button {
