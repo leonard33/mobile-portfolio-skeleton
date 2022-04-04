@@ -14,7 +14,6 @@
 }
 
 .header {
-  position: absolute;
   width: 375px;
   height: 72px;
   display: flex;
@@ -42,11 +41,23 @@
 .menu-button {
   padding: 8px;
   color: #fff;
-  position: static;
+  position: relative;
   width: 40px;
   height: 40px;
-  right: 24px;
-  top: 10px;
+  right: 80px;
+  top: -4px;
+  cursor: pointer;
+}
+
+.menu ul li a {
+  margin-right: 20px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  text-decoration: none;
+  color: #fff;
 }
 
 .fa {
@@ -154,7 +165,7 @@ a {
 
 .work-intro {
   position: static;
-  margin-top: 250px;
+  margin-top: 350px;
   margin-bottom: 100px;
   width: 375px;
   height: 83px;
@@ -234,7 +245,7 @@ a {
   text-align: center;
   padding: 5px;
   font-size: 14px;
-  border: 1px solid#1c1a19;
+  border: 1px solid #1c1a19;
 }
 
 .work-button {
@@ -413,7 +424,7 @@ ul li a {
 .wall {
   position: absolute;
   left: 315px;
-  z-index: 10;
+  z-index: 5;
 }
 
 .try {
@@ -595,10 +606,6 @@ button:hover {
   margin-left: 40px;
 }
 
-.menu {
-  display: none;
-}
-
 .deco {
   display: none;
 }
@@ -642,8 +649,8 @@ button:hover {
     background-color: #3e3c3c;
   }
 
-  .menu {
-    display: block;
+  .menu-button {
+    display: none;
   }
 
   .banner {
@@ -690,6 +697,7 @@ button:hover {
 
   .decoration {
     display: none;
+    z-index: 5px;
   }
 
   .banner * {
@@ -882,6 +890,7 @@ button:hover {
 
   .ornament {
     display: none;
+    z-index: 5;
   }
 
   .dot {
@@ -989,7 +998,89 @@ button:hover {
     margin-bottom: 20px;
   }
 
+  .close {
+    display: none;
+  }
+
+  .after-socials {
+    display: none;
+  }
+
   ::-webkit-scrollbar {
     display: none;
   }
+
+}
+
+@media only screen and (max-width:768px) {
+  .menu {
+    position: fixed;
+    top: 70px;
+    height: 100vh;
+    width: 375px;
+    z-index: 10;
+    display: none;
+    background-color: #3C3A39;
+  }
+
+  .header {
+    position: fixed;
+    z-index: 10;
+    bottom: 0;
+    top: 0;
+  }
+
+  .close {
+    display: none;
+    margin-left: 270px;
+    margin-top: 10px;
+    font-weight: 900;
+    font-size: 34px;
+    color: #67798E;
+  }
+
+  .menu ul li a {
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 10px 10px;
+    width: 330px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    align-items: center;
+    display: block;
+    color: #FFF5E1;
+    border-bottom:1px solid  #6F6C6B;
+  }
+
+  .menu ul li:nth-child(4){
+    display: none;
+  }
+
+  .after-socials {
+    position: fixed;
+    left: 0;
+    bottom: 2%;
+    width: 375px;
+    height: 57px;
+    margin-bottom: -14px;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    background-color: #e5e5e5;
+  }
+
+  .footer-socials {
+    display: flex;
+    align-items: center;
+    border-top: 2px solid #e5e5e5;
+    padding-top: 20px;
+    margin: 10px auto;
+    justify-content: center;
+    color: #505f79;
+  }
+
 }

@@ -45,15 +45,17 @@
   <body>
     <div class="container">
       <header class="header">
-        <a class="owner">John Doe</a>
-        <nav class="menu-button"><i class="fa fa-bars"></i></nav>
-        <div class="menu">
+        <a class="owner">John Doe</a> 
+        <nav class="menu-button" ><i class="fa fa-bars"></i></nav>
+        <nav class="close" id="close" >&times;</nav>
+        <div class="menu" id="menu">
           <ul>
-              <li><a href="#">Portfolio</a></li>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Contact</a></li>
-              <li><a href="#"><i class="fas fa-envelope"></i></a></li>
+              <li class="menu-item"><a href="#work-intro">Portfolio</a></li>
+              <li class="menu-item"><a href="#about">About</a></li>
+              <li class="menu-item"><a href="#contact">Contact</a></li>
+              <li class="menu-item"><a href="#"><i class="fas fa-envelope"></i></a></li>
           </ul>
+        <div class="after-socials"><img src="./assets/Shape.png"/></div>
         </div>
       </header>
       <section class="banner">
@@ -100,14 +102,14 @@
         </div>
         <img class="deco" src="./assets/Illustration-header.png" alt=""/>
       </section>
-      <section>
-        <div class="work-intro">
+      <section id="portfolio">
+        <div class="work-intro" id="work-intro">
           <h2>MY RECENT WORKS</h2>
           <img src="./assets/Vector-line.png" alt=""/>
         </div>
         <div class="poster">
           <div class="image-holder">
-           <img src="./assets/post2.svg" alt="" />
+           <img src="./assets/post2.svg" alt="Post" />
         </div>
        <div class="post-information">
         <div class="post-title">
@@ -223,7 +225,7 @@
         </div>
       </div>
       </section>
-      <section>
+      <section id="about">
         <div class="me">
           <div class="my-info">
             <div class="sect-about">
@@ -282,7 +284,7 @@
         </div>
         </div>
       </section>
-      <section class="contact-form">
+      <section class="contact-form" id="contact">
         <footer>
          <div class="footer-form-info">
           <div class="footer-info">
@@ -348,5 +350,6 @@
         </footer>
       </section>
     </div>
+    <script src="./script.js" defer></script>
   </body>
 </html>
