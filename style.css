@@ -1084,3 +1084,64 @@ button:hover {
   }
 
 }
+
+@media only screen and (max-width:768px) {
+  .menu {
+  position: fixed;
+  top: 70px;
+  height: 100vh;
+  width: 375px;
+  z-index: 10;
+  display: none;
+  background-color: #3C3A39;
+  }
+  
+  .header {
+  position: fixed;
+  z-index: 10;
+  bottom: 0;
+  top: 0;
+  }
+  
+  .close {
+  display: none;
+  margin-left: 270px;
+  margin-top: 10px;
+  font-weight: 900;
+  font-size: 34px;
+  color: #67798E;
+  }
+  
+  .menu ul li a {
+  margin-top: 20px;
+  margin-left: 20px;
+  padding: 10px 10px;
+  width: 330px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  align-items: center;
+  display: block;
+  color: #FFF5E1;
+  border-bottom:1px solid #6F6C6B;
+  }
+  
+  .menu ul li:nth-child(4){
+  display: none;
+  }
+  
+  .after-socials {
+  position: fixed;
+  left: 0;
+  bottom: 2%;
+  width: 375px;
+  height: 57px;
+  margin-bottom: -14px;
+  padding-bottom: 10px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  }
+}
