@@ -1006,6 +1006,86 @@ button:hover {
     display: none;
   }
 
+  /*modal*/
+.modal {
+  position: fixed;
+  display: flex;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+  background-color: rgba(0, 0, 0, .8);
+  display: none;
+  }
+  
+  .poster-modal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50rem;
+  height: 40rem;
+  margin-top: 20px;
+  margin-bottom: 100px;
+  margin-left: 250px;
+  background-color: white;
+  }
+  
+  .btns {
+  display: flex;
+  margin-top: 40px;
+  margin-left: -80px;
+  width: 30rem;
+  justify-content: space-around;
+  }
+  
+  .close-modal {
+  margin-left: 20px;
+  font-size: 50px;
+  cursor: pointer;
+  }
+  
+  .image-modal {
+  height: 300px;
+  width: 500px;
+  margin-top: -50px;
+  }
+  
+  .post-modal {
+  margin-top: -50px;
+  margin-left: -90px;
+  }
+  
+  .btns-container {
+  display: flex;
+  height: 50px;
+  background: #ff6b00;
+  align-items: center;
+  margin-left: 20px;
+  }
+  
+  .icons {
+  Width: 17.99px
+  }
+
+  .modal-posttitle {
+    margin-left: 20px;
+    margin-bottom: 10px;
+    }
+  
+  .post-modal {
+    margin: auto;
+    margin-left: 10px;
+  }
+    
+  .work-btns {
+    margin: auto;
+  } 
+
   ::-webkit-scrollbar {
     display: none;
   }
@@ -1143,3 +1223,5 @@ button:hover {
     justify-content: center;
   }
 }
+
+
