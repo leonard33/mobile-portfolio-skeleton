@@ -858,8 +858,29 @@ button:hover {
   .job6 {
     background-image: url("./assets/post4.svg");
   }
+  .job7:hover .job-button,  
+  .job1:hover .job-button,
+  .job2:hover .job-button,
+  .job3:hover .job-button,
+  .job4:hover .job-button,
+  .job5:hover .job-button,
+  .job6:hover .job-button {
+    display: block;
+  }
 
   .job-button {
+    width: 367px;
+    display: none;
+    margin-top: 385px;
+  }
+
+  .job7:hover *  
+  .job1:hover *,
+  .job2:hover *,
+  .job3:hover *,
+  .job4:hover *,
+  .job5:hover *,
+  .job6:hover * {
     display: none;
   }
 
@@ -1005,86 +1026,88 @@ button:hover {
   .after-socials {
     display: none;
   }
+/*modal*/
+  .modal {
+    position: fixed;
+    display: flex;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    background-color: rgba(0, 0, 0, .8);
+    display: none;
+  }
 
-  /*modal*/
-.modal {
-  position: fixed;
-  display: flex;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  justify-content: center;
-  align-items: center;
-  z-index: 10;
-  background-color: rgba(0, 0, 0, .8);
-  display: none;
-  }
-  
   .poster-modal {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 50rem;
-  height: 40rem;
-  margin-top: 20px;
-  margin-bottom: 100px;
-  margin-left: 250px;
-  background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50rem;
+    height: 40rem;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    margin-left: 250px;
+    background-color: white;
   }
-  
+
   .btns {
-  display: flex;
-  margin-top: 40px;
-  margin-left: -80px;
-  width: 30rem;
-  justify-content: space-around;
+    display: flex;
+    margin-top: 40px;
+    margin-left: -80px;
+    width: 30rem;
+    justify-content: space-around;
   }
-  
-  .close-modal {
-  margin-left: 20px;
-  font-size: 50px;
-  cursor: pointer;
-  }
-  
-  .image-modal {
-  height: 300px;
-  width: 500px;
-  margin-top: -50px;
-  }
-  
-  .post-modal {
-  margin-top: -50px;
-  margin-left: -90px;
-  }
-  
-  .btns-container {
+
+ .close-modal {
+   margin-left: 20px;
+   font-size: 50px;
+   cursor: pointer;
+ }
+
+ .image-modal {
+   height: 300px;
+   width: 500px;
+   margin-top: -50px;
+ }
+
+ .post-modal {
+   margin-top: -50px;
+   margin-left: -90px;
+ }
+
+ .btns-container {
   display: flex;
   height: 50px;
   background: #ff6b00;
   align-items: center;
   margin-left: 20px;
-  }
-  
-  .icons {
-  Width: 17.99px
-  }
+}
 
-  .modal-posttitle {
-    margin-left: 20px;
-    margin-bottom: 10px;
-    }
-  
-  .post-modal {
-    margin: auto;
-    margin-left: 10px;
-  }
-    
-  .work-btns {
-    margin: auto;
-  } 
+.icons {
+  Width: 17.99px;
+  Height: 20px;
+  margin-right: 20px;
+}
+
+.work-btns {
+  font-family: "Inter", sans-serif;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #fff;
+  background-color: rgb(230, 101, 16);
+  margin-left: 10px;
+  padding: 2px 5px;
+}
 
   ::-webkit-scrollbar {
     display: none;
@@ -1222,6 +1245,78 @@ button:hover {
     align-items: flex-end;
     justify-content: center;
   }
+/*modal*/
+  .modal {
+    position: fixed;
+    display: flex;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    background-color: rgba(0, 0, 0, .8);
+    display: none;
+  }
+
+  .poster-modal {
+    width: 350px;
+    height: 62vh;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-bottom: 40px;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+  }
+
+  .btns {
+    display: flex;
+    margin-top: -15px;
+    justify-content: space-around;
+    margin-right: 20px;
+    padding-left: -200px;
+    width: 350px;
+  }
+
+  .btns-container {
+    display: flex;
+    background: #ff6b00;
+    align-items: center;
+  }
+
+  .close-modal {
+    margin-top: -5px;
+    margin-left: 100px;
+    font-weight: 700;
+    font-size: 35px;
+  }
+
+  .image-modal {
+    width: 350px;
+    height: 212px;
+    margin: 5px 0;
+  }
+
+  .modal-info {
+    margin-top: 10px;
+    margin-left: 5px;
+  }
+
+  .modal-posttitle {
+    margin-left: 20px;
+    margin-bottom: 10px;
+  }
+
+  .post-modal {
+    margin: auto;
+    margin-left: 10px;
+  }
+  
+  .work-btns {
+    margin: auto;
+  }
 }
-
-
