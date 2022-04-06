@@ -1049,11 +1049,10 @@ button:hover {
 
   .poster-modal {
     align-items: center;
-    width: 50rem;
-    height: 35rem;
-    margin-top: 40px;
-    margin-bottom: 100px;
-    margin-left: 230px;
+    width: 1156px;
+    height: 631px;
+    margin-top: 20px;
+    margin-left: 70px;
     background-color: white;
   }
 
@@ -1073,16 +1072,65 @@ button:hover {
   }
 
   .image-modal {
-    height: 400px;
-    width: 550px;
+    height: 448px;
+    width: 659px;
     margin-top: 20px;
-    margin-left: -50px;
+    margin-left: 40px;
+    background-size: contain;
+    border: 2px solid red;
+  }
+
+  .image-modal img {
+    height: 448px;
+    width: 659px;
+    object-fit: fill;
+    border: 2px solid red;
+  }
+
+  .image-modal .job1 {
+    background-image: url("./assets/post6.png");
+    height: 448px;
+    width: 659px;
+  }
+
+  .image-modal .job2 {
+    background-image: url("./assets/post3.svg");
+    height: 448px;
+    width: 659px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center
+  }
+
+  .image-modal .job3 {
+    background-image: url("./assets/post4.svg");
+    height: 448px;
+    width: 659px;
+  }
+
+  .image-modal .job4 {
+    background-image: url("./assets/post1.svg");
+    height: 448px;
+    width: 659px;
+  }
+
+  .image-modal .job5 {
+    background-image: url("./assets/post7.svg");
+    height: 448px;
+    width: 659px;
+  }
+
+  .image-modal .job6 {
+    background-image: url("./assets/post4.svg");
+    height: 448px;
+    width: 659px;
   }
 
   .post-modal {
-    margin-top: -50px;
-    margin-left: -55px;
-    width: 400px;
+    margin-top: -20px;
+    margin-left: 255px;
+    width: 424px;
+    height: 336px;
   }
 
   .modal-posttitle {
@@ -1095,15 +1143,17 @@ button:hover {
     display: flex;
     height: 50px;
     width: 150px;
-    margin-top: 200px;
+    margin-top: 250px;
     background: #ff6b00;
     align-items: center;
+    justify-content: space-around;
     margin-left: -150px;
+    cursor: pointer;
   }
 
   .icons {
-    width: 17.99px;
-    height: 20px;
+    width: 22.99px;
+    height: 25px;
     margin-right: 20px;
   }
 
@@ -1120,6 +1170,24 @@ button:hover {
     background-color: rgb(230, 101, 16);
     margin-left: 10px;
     padding: 2px 5px;
+    border: 1px solid blue;
+  }
+
+  .working-btns {
+    font-family: "Inter", sans-serif;
+    font-weight: 900;
+    font-size: 17px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #fff;
+  }
+
+  .icons:hover,
+  .btns-container:hover {
+    background-color: rgb(255, 123, 0);
   }
 
   #open-modal-projects {
@@ -1281,11 +1349,12 @@ button:hover {
   }
 
   .poster-modal {
-    width: 330px;
-    height: 90vh;
-    margin-top: -70px;
+    width: 350px;
+    height: 80vh;
+    padding-top: -70px;
     margin-left: 20px;
     margin-bottom: 40px;
+    margin-top: 50px;
     align-items: center;
     justify-content: center;
     background-color: white;
@@ -1313,7 +1382,6 @@ button:hover {
     margin-top: -5px;
     font-weight: 700;
     font-size: 35px;
-    margin-left: auto;
   }
 
   .image-modal {
@@ -1323,16 +1391,17 @@ button:hover {
   }
 
   .modal-info {
-    margin-top: 10px;
+    margin-top: 20px;
     margin-left: 5px;
   }
 
   .modal-posttitle {
-    margin-top: 100px;
-    margin-left: 20px;
-    margin-bottom: 15px;
-    height: 100px;
-    width: 250px;
+    font-size: 15px;
+    margin-left: 2px;
+    margin-bottom: 8px;
+    height: 70px;
+    width: 300px;
+    justify-content: space-between;
   }
 
   .post-modal {
@@ -1340,7 +1409,7 @@ button:hover {
     margin-left: 10px;
   }
 
-  .work-btns {
+  .working-btns {
     margin: auto;
     font-family: 'Inter', sans-serif;
     font-style: normal;
@@ -1348,6 +1417,16 @@ button:hover {
     font-size: 16px;
     letter-spacing: 0.03em;
     color: #fff;
+  }
+
+  .btns-container:hover {
+     background-color: rgb(255, 115, 0);
+  }
+
+  #modal-list-grid {
+    margin-top: -15px;
+    margin-left: -1px;
+    margin-bottom: -2px;
   }
 
   #btns-container {
