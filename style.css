@@ -338,12 +338,6 @@ form ul li {
   list-style: none;
 }
 
-#modal-list-grid li {
-  padding: 5px;
-  margin-top: -5px;
-  border: 1px solid black;
-}
-
 .grid-container2 li {
   text-align: center;
   padding: 5px;
@@ -356,6 +350,12 @@ form ul li {
 
 .grid-container2 li:hover {
   background: orange;
+}
+
+#modal-list-grid li {
+  padding: 5px;
+  margin-top: -5px;
+  border: 1px solid black;
 }
 
 .job-button {
@@ -861,6 +861,12 @@ button:hover {
     background-image: url("./assets/post4.svg");
   }
 
+  .job-button {
+    width: 367px;
+    display: none;
+    margin-top: 385px;
+  }
+
   .job1:hover .job-button,
   .job2:hover .job-button,
   .job3:hover .job-button,
@@ -870,13 +876,6 @@ button:hover {
     display: block;
   }
 
-  .job-button {
-    width: 367px;
-    display: none;
-    margin-top: 385px;
-  }
-
-   
   .job1:hover *,
   .job2:hover *,
   .job3:hover *,
@@ -1041,7 +1040,7 @@ button:hover {
     justify-content: center;
     align-items: center;
     z-index: 10;
-    background-color: rgba(0, 0, 0, .8);
+    background-color: rgba(0, 0, 0, 0.8);
     display: none;
   }
 
@@ -1064,69 +1063,64 @@ button:hover {
     justify-content: space-around;
   }
 
- .close-modal {
-   margin-left: 20px;
-   font-size: 50px;
-   cursor: pointer;
- }
+  .close-modal {
+    margin-left: 20px;
+    font-size: 50px;
+    cursor: pointer;
+  }
 
- .image-modal {
-   height: 400px;
-   width: 550px;
-   margin-top: 20px;
- }
+  .image-modal {
+    height: 400px;
+    width: 550px;
+    margin-top: 20px;
+  }
 
- .post-modal {
-   margin-top: -50px;
-   margin-left: 90px;
-   width: 400px;
- }
+  .post-modal {
+    margin-top: -50px;
+    margin-left: 90px;
+    width: 400px;
+  }
 
- .modal-posttitle {
-   margin-top: 50px;
-   width: 60vw;
-   margin-left: 80px;
- }
+  .modal-posttitle {
+    margin-top: 50px;
+    width: 60vw;
+    margin-left: 80px;
+  }
 
- .grid-container {
-   margin-bottom: -10px;
-   margin-left: 115px;
- }
+  .btns-container {
+    display: flex;
+    height: 50px;
+    width: 150px;
+    margin-top: 200px;
+    background: #ff6b00;
+    align-items: center;
+    margin-left: -150px;
+  }
 
- .btns-container {
-  display: flex;
-  height: 50px;
-  width: 150px;
-  margin-top: 200px;
-  background: #ff6b00;
-  align-items: center;
-  margin-left: -150px;
-}
+ .icons {
+    width: 17.99px;
+    height: 20px;
+    margin-right: 20px;
+  }
 
-.icons {
-  Width: 17.99px;
-  Height: 20px;
-  margin-right: 20px;
-}
+ .work-btns {
+    font-family: "Inter", sans-serif;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #fff;
+    background-color: rgb(230, 101, 16);
+    margin-left: 10px;
+    padding: 2px 5px;
+  }
 
-.work-btns {
-  font-family: "Inter", sans-serif;
-  font-weight: 900;
-  font-size: 14px;
-  line-height: 24px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #fff;
-  background-color: rgb(230, 101, 16);
-  margin-left: 10px;
-  padding: 2px 5px;
-}
-
-#open-modal-projects {
-  margin-top: 100px;
-}
+  #open-modal-projects {
+    margin-top: 100px;
+  }
 
   ::-webkit-scrollbar {
     display: none;
@@ -1275,7 +1269,7 @@ button:hover {
     justify-content: center;
     align-items: center;
     z-index: 10;
-    background-color: rgba(0, 0, 0, .8);
+    background-color: rgba(0, 0, 0, 0.8);
     display: none;
   }
 
@@ -1346,10 +1340,6 @@ button:hover {
     font-weight: 700;
     font-size: 16px;
     letter-spacing: 0.03em;
-    color: #FFFFFF;
-  }
-
-  #btns-container {
-    border: 3px solid blue;
+    color: #fff;
   }
 }

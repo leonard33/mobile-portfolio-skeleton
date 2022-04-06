@@ -1,47 +1,47 @@
 const modals = {
-    job1: {
-        title: "Profesional Art Printing Data",
-        img: "./assets/post6.png",
-        text: "A daily section of daily private personalised reads no accounts or sign ups required ha been the industry standups",
-        link: '<li class="item">html</li><li class="item">Bootstrap</li><li class="item">css</li><li class="item">Ruby</li>',
-    },
-    job2: {
-       title: "Data Dashboard Health Care",
-        img: "./assets/post3.svg",
-        text: "A daily section of daily private personalised reads no accounts or sign ups required ha been the industry standups",
-        link:  '<li class="item">html</li><li class="item">Bootstrap</li><li class="item">css</li><li class="item">Ruby</li>',
-   },
-   job3: {
-       title: "Website Portfolio",
-        img: "./assets/post4.svg",
-        text: "A daily section of daily private personalised reads no accounts or sign ups required ha been the industry standups",
-        link: '<li class="item">html</li><li class="item">Bootstrap</li><li class="item">css</li><li class="item">Ruby</li>',
-   },
-   job4: {
-       title: "Data Dashboard Health Care",
-        img: "./assets/post1.svg",
-        text: "A daily section of daily private personalised reads no accounts or sign ups required ha been the industry standups",
-        link: '<li class="item">html</li><li class="item">Bootstrap</li><li class="item">css</li><li class="item">Ruby</li>',
-   },
-   job5: {
-       title: "Profesional Art Printing Data",
-       img: "./assets/post7.svg",
-       text: "A daily section of daily private personalised reads no accounts or sign ups required ha been the industry standups",
-       link:  '<li class="item">html</li><li class="item">Bootstrap</li><li class="item">css</li><li class="item">Ruby</li>',
-   },
-   job6: {
-      title: "Website Portfolio",
-      img: "./assets/post4.svg",
-      text: "A daily section of daily private personalised reads no accounts or sign ups required ha been the industry standups",
-      link: '<li class="item">html</li><li class="item">Bootstrap</li><li class="item">css</li><li class="item">Ruby</li>',
+  job1: {
+    title: 'Profesional Art Printing Data',
+    img: './assets/post6.png',
+    text: 'A daily section of daily private personalised reads no accounts or sign ups required ha been the industry standups',
+    link: '<li class="item">html</li><li class="item">Bootstrap</li><li class="item">css</li><li class="item">Ruby</li>',
+  },
+  job2: {
+    title: 'Data Dashboard Health Care',
+    img: './assets/post3.svg',
+    text: 'A daily section of daily private personalised reads no accounts or sign ups required ha been the industry standups',
+    link:  '<li class="item">html</li><li class="item">Bootstrap</li><li class="item">css</li><li class="item">Ruby</li>',
+  },
+  job3: {
+    title: 'Website Portfolio',
+    img: './assets/post4.svg',
+    text: 'A daily section of daily private personalised reads no accounts or sign ups required ha been the industry standups',
+    link: '<li class="item">html</li><li class="item">Bootstrap</li><li class="item">css</li><li class="item">Ruby</li>',
+  },
+  job4: {
+    title: 'Data Dashboard Health Care',
+    img: './assets/post1.svg',
+    text: 'A daily section of daily private personalised reads no accounts or sign ups required ha been the industry standups',
+    link: '<li class="item">html</li><li class="item">Bootstrap</li><li class="item">css</li><li class="item">Ruby</li>',
+  },
+  job5: {
+    title: 'Profesional Art Printing Data',
+    img: './assets/post7.svg',
+    text: 'A daily section of daily private personalised reads no accounts or sign ups required ha been the industry standups',
+    link:  '<li class="item">html</li><li class="item">Bootstrap</li><li class="item">css</li><li class="item">Ruby</li>',
+  },
+  job6: {
+    title: 'Website Portfolio',
+    img: './assets/post4.svg',
+    text: 'A daily section of daily private personalised reads no accounts or sign ups required ha been the industry standups',
+    link: '<li class="item">html</li><li class="item">Bootstrap</li><li class="item">css</li><li class="item">Ruby</li>',
   },
 
-}
+};
 
 //projects
 const projects = document.querySelector('.projects');
 
-Object.keys(modals).forEach(function(key){
+Object.keys(modals).forEach((key)=> {
   projects.innerHTML += ` <div class="${key}">
   <h2>${modals[key].title}</h2>
   <div class="info-data">
@@ -55,53 +55,51 @@ Object.keys(modals).forEach(function(key){
     <li class="item3"><a href="#">Ruby</a></li>
   </ul>
   <button type="button" class="job-button" id="${key}">See Project</button>
-</div>`
-})
-console.log(projects);
+</div>`;
+});
+
 
 // query selectors
 const menuButton = document.querySelector('.menu-button');
 const closeButton = document.querySelector('.close');
-const menu= document.querySelector('#menu');
-const decoration =document.querySelector('.decoration');
+const menu = document.querySelector('#menu');
+const decoration = document.querySelector('.decoration');
 const personName = document.querySelector('.owner');
 const links = document.querySelectorAll('.menu-item');
 const modal = document.querySelector('.modal');
 const openProject = document.querySelector('#open-modal-projects');
 const closeProject =document.querySelector('.close-modal');
-const modalImg = document.querySelector('.post-images');
 const popUp = document.querySelectorAll('.job-button');
 
 
 //event listener
 
-menuButton.addEventListener('click',openMenu);
-closeButton.addEventListener('click',closeMenu);
+menuButton.addEventListener('click', openMenu);
 
 
-//functions
+// functions
 function openMenu() {
-   if (menu.style.display === "none") {
-       menu.style.display = "block";
-       menuButton.style.display="none";
-       personName.style.display = "none";
-       closeButton.style.display= "block"
+  if (menu.style.display === 'none') {
+    menu.style.display = 'block';
+    menuButton.style.display = 'none';
+    personName.style.display = 'none';
+    closeButton.style.display = 'block'
    } else {
-       menu.style.display = "none";       
+       menu.style.display = 'none';       
    }
-
- }
+ };
 
  function closeMenu() {
-     if(menu.style.display==="block"){
-         menu.style.display = "none";
-         closeButton.style.display="none";
-         menuButton.style.display = "block";
-         personName.style.display = "block";
+  if (menu.style.display === 'block') {
+    menu.style.display = 'none';
+    closeButton.style.display = 'none';
+    menuButton.style.display = 'block';
+    personName.style.display = 'block';
      }else {
        menu.style.display = "block";     
    }
  }
+ closeButton.addEventListener('click', closeMenu);
 
 links.forEach(element =>{
     element.onclick = function(event){
