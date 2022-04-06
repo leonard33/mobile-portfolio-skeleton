@@ -9,7 +9,7 @@ const modals = {
     title: 'Data Dashboard Health Care',
     img: './assets/post3.svg',
     text: 'A daily section of daily private personalised reads no accounts or sign ups required ha been the industry standups',
-    link:  '<li class="item">html</li><li class="item">Bootstrap</li><li class="item">css</li><li class="item">Ruby</li>',
+    link: '<li class="item">html</li><li class="item">Bootstrap</li><li class="item">css</li><li class="item">Ruby</li>',
   },
   job3: {
     title: 'Website Portfolio',
@@ -27,7 +27,7 @@ const modals = {
     title: 'Profesional Art Printing Data',
     img: './assets/post7.svg',
     text: 'A daily section of daily private personalised reads no accounts or sign ups required ha been the industry standups',
-    link:  '<li class="item">html</li><li class="item">Bootstrap</li><li class="item">css</li><li class="item">Ruby</li>',
+    link: '<li class="item">html</li><li class="item">Bootstrap</li><li class="item">css</li><li class="item">Ruby</li>',
   },
   job6: {
     title: 'Website Portfolio',
@@ -38,10 +38,10 @@ const modals = {
 
 };
 
-//projects
+// projects
 const projects = document.querySelector('.projects');
 
-Object.keys(modals).forEach((key)=> {
+Object.keys(modals).forEach((key) => {
   projects.innerHTML += ` <div class="${key}">
   <h2>${modals[key].title}</h2>
   <div class="info-data">
@@ -58,24 +58,21 @@ Object.keys(modals).forEach((key)=> {
 </div>`;
 });
 
-
 // query selectors
 const menuButton = document.querySelector('.menu-button');
 const closeButton = document.querySelector('.close');
 const menu = document.querySelector('#menu');
-const decoration = document.querySelector('.decoration');
+// const decoration = document.querySelector('.decoration');
 const personName = document.querySelector('.owner');
 const links = document.querySelectorAll('.menu-item');
 const modal = document.querySelector('.modal');
-const openProject = document.querySelector('#open-modal-projects');
-const closeProject =document.querySelector('.close-modal');
+// const openProject = document.querySelector('#open-modal-projects');
+const closeProject = document.querySelector('.close-modal');
 const popUp = document.querySelectorAll('.job-button');
 
-
-//event listener
+// event listener
 
 menuButton.addEventListener('click', openMenu);
-
 
 // functions
 function openMenu() {
@@ -83,11 +80,11 @@ function openMenu() {
     menu.style.display = 'block';
     menuButton.style.display = 'none';
     personName.style.display = 'none';
-    closeButton.style.display = 'block'
-   } else {
-       menu.style.display = 'none';       
-   }
- };
+    closeButton.style.display = 'block';
+  } else {
+    menu.style.display = 'none';       
+  }
+};
 
  function closeMenu() {
   if (menu.style.display === 'block') {
@@ -95,40 +92,39 @@ function openMenu() {
     closeButton.style.display = 'none';
     menuButton.style.display = 'block';
     personName.style.display = 'block';
-     }else {
-       menu.style.display = "block";     
-   }
- }
- closeButton.addEventListener('click', closeMenu);
-
-links.forEach(element =>{
-    element.onclick = function(event){
-        if(event.target){
-            menu.style.display= "none";
-            menuButton.style.display = "block";
-            personName.style.display = "block";
-            closeButton.style.display="none";
-        }
-    }
-})
-
-closeProject.onclick = function(event){
-    if(event.target){
-        modal.style.display="none";
-    }
+  } else {
+    menu.style.display = 'block';
+  }
 }
+closeButton.addEventListener('click', closeMenu);
 
-const list = document.querySelector('#modal-list-grid');
-popUp.forEach(element => {
-    element.onclick = function(event){
-        if(event.target){
-            modal.style.display="block";
-            let uniqId = event.target.id;
-            document.querySelector('.heading-modal').innerHTML = modals[uniqId].title;
-            document.querySelector('.post-images').setAttribute('src', modals[uniqId].img);
-            document.querySelector('.paragraph').innerHTML = modals[uniqId].text;
-            document.querySelector('#modal-list-grid').innerHTML = modals[uniqId].link;
-        }
+links.forEach(element => {
+  element.onclick = function (event) {
+    if(event.target){
+      menu.style.display = 'none';
+      menuButton.style.display = 'block';
+      personName.style.display = 'block';
+      closeButton.style.display = 'none';
     }
+  };
 });
 
+closeProject.onclick = function (event) {
+  if (event.target) {
+    modal.style.display = 'none';
+  }
+};
+
+// const list = document.querySelector('#modal-list-grid');
+popUp.forEach(element => {
+  element.onclick = function (event) {
+    if (event.target) {
+      modal.style.display = 'block';
+      const uniqId = event.target.id;
+      document.querySelector('.heading-modal').innerHTML = modals[uniqId].title;
+      document.querySelector('.post-images').setAttribute('src', modals[uniqId].img);
+      document.querySelector('.paragraph').innerHTML = modals[uniqId].text;
+      document.querySelector('#modal-list-grid').innerHTML = modals[uniqId].link;
+    }
+  };
+});
