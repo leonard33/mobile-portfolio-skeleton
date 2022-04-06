@@ -70,10 +70,6 @@ const modal = document.querySelector('.modal');
 const closeProject = document.querySelector('.close-modal');
 const popUp = document.querySelectorAll('.job-button');
 
-// event listener
-
-menuButton.addEventListener('click', openMenu);
-
 // functions
 function openMenu() {
   if (menu.style.display === 'none') {
@@ -82,11 +78,12 @@ function openMenu() {
     personName.style.display = 'none';
     closeButton.style.display = 'block';
   } else {
-    menu.style.display = 'none';       
+    menu.style.display = 'none';
   }
-};
+}
+menuButton.addEventListener('click', openMenu);
 
- function closeMenu() {
+function closeMenu() {
   if (menu.style.display === 'block') {
     menu.style.display = 'none';
     closeButton.style.display = 'none';
@@ -100,7 +97,7 @@ closeButton.addEventListener('click', closeMenu);
 
 links.forEach(element => {
   element.onclick = function (event) {
-    if(event.target){
+    if (event.target){
       menu.style.display = 'none';
       menuButton.style.display = 'block';
       personName.style.display = 'block';

@@ -707,7 +707,7 @@ button:hover {
 
   .decoration {
     display: none;
-    z-index: 5px;
+    z-index: 5;
   }
 
   .banner * {
