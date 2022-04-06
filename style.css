@@ -1034,7 +1034,6 @@ button:hover {
 
   .modal {
     position: fixed;
-    display: flex;
     top: 0;
     bottom: 0;
     right: 0;
@@ -1102,13 +1101,13 @@ button:hover {
     margin-left: -150px;
   }
 
- .icons {
+  .icons {
     width: 17.99px;
     height: 20px;
     margin-right: 20px;
   }
 
- .work-btns {
+  .work-btns {
     font-family: "Inter", sans-serif;
     font-weight: 900;
     font-size: 14px;
@@ -1126,6 +1125,7 @@ button:hover {
   #open-modal-projects {
     margin-top: 100px;
   }
+
   .mmodal .grid-container {
     border: 1px solid greenyellow;
   }
@@ -1269,7 +1269,6 @@ button:hover {
 
   .modal {
     position: fixed;
-    display: flex;
     top: 0;
     bottom: 0;
     right: 0;
@@ -1284,7 +1283,7 @@ button:hover {
   .poster-modal {
     width: 330px;
     height: 90vh;
-    margin-top: -50px;
+    margin-top: -70px;
     margin-left: 20px;
     margin-bottom: 40px;
     align-items: center;
@@ -1294,7 +1293,7 @@ button:hover {
 
   .btns {
     display: flex;
-    margin-top: -15px;
+    margin-top: -40px;
     justify-content: space-around;
     margin-right: 20px;
     padding-left: -200px;
@@ -1306,7 +1305,7 @@ button:hover {
     background: #ff6b00;
     align-items: center;
     width: 100px;
-    height: 50px;
+    height: 40px;
     margin-left: -50px;
   }
 
@@ -1319,7 +1318,7 @@ button:hover {
 
   .image-modal {
     width: 320px;
-    height: 212px;
+    height: 200px;
     margin: 5px 0;
   }
 
@@ -1340,10 +1339,10 @@ button:hover {
     margin: auto;
     margin-left: 10px;
   }
-  
+
   .work-btns {
-    margin: auto; 
-    font-family: 'Inter';
+    margin: auto;
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
