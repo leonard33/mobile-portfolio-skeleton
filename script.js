@@ -3,40 +3,61 @@ const modals = {
         title: "Profesional Art Printing Data",
         img: "./assets/post6.png",
         text: "A daily section of daily private personalised reads no accounts or sign ups required ha been the industry standups",
-        link: "htttp/microverse.com",
+        link: '<li class="item">html</li><li class="item">Bootstrap</li><li class="item">css</li><li class="item">Ruby</li>',
     },
     job2: {
-       title: "Profesional Art Printing Data",
+       title: "Data Dashboard Health Care",
         img: "./assets/post3.svg",
         text: "A daily section of daily private personalised reads no accounts or sign ups required ha been the industry standups",
-        link: "htttp/microverse.com",
+        link:  '<li class="item">html</li><li class="item">Bootstrap</li><li class="item">css</li><li class="item">Ruby</li>',
    },
    job3: {
-       title: "Profesional Art Printing Data",
+       title: "Website Portfolio",
         img: "./assets/post4.svg",
         text: "A daily section of daily private personalised reads no accounts or sign ups required ha been the industry standups",
-        link: "htttp/microverse.com",
+        link: '<li class="item">html</li><li class="item">Bootstrap</li><li class="item">css</li><li class="item">Ruby</li>',
    },
    job4: {
-       title: "Profesional Art Printing Data",
+       title: "Data Dashboard Health Care",
         img: "./assets/post1.svg",
         text: "A daily section of daily private personalised reads no accounts or sign ups required ha been the industry standups",
-        link: "htttp/microverse.com",
+        link: '<li class="item">html</li><li class="item">Bootstrap</li><li class="item">css</li><li class="item">Ruby</li>',
    },
    job5: {
        title: "Profesional Art Printing Data",
        img: "./assets/post7.svg",
        text: "A daily section of daily private personalised reads no accounts or sign ups required ha been the industry standups",
-       link: "htttp/microverse.com",
+       link:  '<li class="item">html</li><li class="item">Bootstrap</li><li class="item">css</li><li class="item">Ruby</li>',
    },
    job6: {
-      title: "Profesional Art Printing Data",
+      title: "Website Portfolio",
       img: "./assets/post4.svg",
       text: "A daily section of daily private personalised reads no accounts or sign ups required ha been the industry standups",
-      link: "htttp/microverse.com",
+      link: '<li class="item">html</li><li class="item">Bootstrap</li><li class="item">css</li><li class="item">Ruby</li>',
   },
 
 }
+
+//projects
+const projects = document.querySelector('.projects');
+
+Object.keys(modals).forEach(function(key){
+  projects.innerHTML += ` <div class="${key}">
+  <h2>${modals[key].title}</h2>
+  <div class="info-data">
+    <p class="paragraph">
+    ${modals[key].text}
+    </p>
+  </div>
+  <ul class="grid-container2">
+    <li class="item1"><a href="#">html</a></li>
+    <li class="item2"><a href="#">bootstrap</a></li>
+    <li class="item3"><a href="#">Ruby</a></li>
+  </ul>
+  <button type="button" class="job-button" id="${key}">See Project</button>
+</div>`
+})
+console.log(projects);
 
 // query selectors
 const menuButton = document.querySelector('.menu-button');
@@ -48,9 +69,9 @@ const links = document.querySelectorAll('.menu-item');
 const modal = document.querySelector('.modal');
 const openProject = document.querySelector('#open-modal-projects');
 const closeProject =document.querySelector('.close-modal');
-//const modalTitle = document.querySelector('.modal-posttitle h3');
 const modalImg = document.querySelector('.post-images');
 const popUp = document.querySelectorAll('.job-button');
+
 
 //event listener
 
@@ -99,6 +120,7 @@ closeProject.onclick = function(event){
     }
 }
 
+const list = document.querySelector('#modal-list-grid');
 popUp.forEach(element => {
     element.onclick = function(event){
         if(event.target){
@@ -107,6 +129,8 @@ popUp.forEach(element => {
             document.querySelector('.heading-modal').innerHTML = modals[uniqId].title;
             document.querySelector('.post-images').setAttribute('src', modals[uniqId].img);
             document.querySelector('.paragraph').innerHTML = modals[uniqId].text;
+            document.querySelector('#modal-list-grid').innerHTML = modals[uniqId].link;
         }
     }
 });
+

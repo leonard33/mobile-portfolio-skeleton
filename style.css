@@ -338,6 +338,12 @@ form ul li {
   list-style: none;
 }
 
+#modal-list-grid li {
+  padding: 5px;
+  margin-top: -5px;
+  border: 1px solid black;
+}
+
 .grid-container2 li {
   text-align: center;
   padding: 5px;
@@ -782,7 +788,7 @@ button:hover {
   }
 
   .post-title h3 {
-    width: 458px;
+    width: 700px;
     height: 48px;
     font-family: 'Crete Round', serif;
     font-style: normal;
@@ -832,10 +838,6 @@ button:hover {
   }
 
   .job1 {
-    display: none;
-  }
-
-  .job7 {
     background-image: url("./assets/post6.png");
   }
 
@@ -858,7 +860,7 @@ button:hover {
   .job6 {
     background-image: url("./assets/post4.svg");
   }
-  .job7:hover .job-button,  
+
   .job1:hover .job-button,
   .job2:hover .job-button,
   .job3:hover .job-button,
@@ -874,7 +876,7 @@ button:hover {
     margin-top: 385px;
   }
 
-  .job7:hover *  
+   
   .job1:hover *,
   .job2:hover *,
   .job3:hover *,
@@ -1026,7 +1028,7 @@ button:hover {
   .after-socials {
     display: none;
   }
-/*modal*/
+
   .modal {
     position: fixed;
     display: flex;
@@ -1044,22 +1046,21 @@ button:hover {
   }
 
   .poster-modal {
-    display: flex;
-    flex-direction: column;
     align-items: center;
-    width: 50rem;
-    height: 40rem;
-    margin-top: 20px;
+    width: 60rem;
+    height: 35rem;
+    margin-top: 40px;
     margin-bottom: 100px;
-    margin-left: 250px;
+    margin-left: 230px;
     background-color: white;
   }
 
   .btns {
     display: flex;
     margin-top: 40px;
-    margin-left: -80px;
-    width: 30rem;
+    margin-left: -350px;
+    width: 100rem;
+    height: 100px;
     justify-content: space-around;
   }
 
@@ -1070,22 +1071,36 @@ button:hover {
  }
 
  .image-modal {
-   height: 300px;
-   width: 500px;
-   margin-top: -50px;
+   height: 400px;
+   width: 550px;
+   margin-top: 20px;
  }
 
  .post-modal {
    margin-top: -50px;
-   margin-left: -90px;
+   margin-left: 90px;
+   width: 400px;
+ }
+
+ .modal-posttitle {
+   margin-top: 50px;
+   width: 60vw;
+   margin-left: 80px;
+ }
+
+ .grid-container {
+   margin-bottom: -10px;
+   margin-left: 115px;
  }
 
  .btns-container {
   display: flex;
   height: 50px;
+  width: 150px;
+  margin-top: 200px;
   background: #ff6b00;
   align-items: center;
-  margin-left: 20px;
+  margin-left: -150px;
 }
 
 .icons {
@@ -1107,6 +1122,10 @@ button:hover {
   background-color: rgb(230, 101, 16);
   margin-left: 10px;
   padding: 2px 5px;
+}
+
+#open-modal-projects {
+  margin-top: 100px;
 }
 
   ::-webkit-scrollbar {
@@ -1245,7 +1264,7 @@ button:hover {
     align-items: flex-end;
     justify-content: center;
   }
-/*modal*/
+
   .modal {
     position: fixed;
     display: flex;
@@ -1253,8 +1272,6 @@ button:hover {
     bottom: 0;
     right: 0;
     left: 0;
-    width: 100vw;
-    height: 100vh;
     justify-content: center;
     align-items: center;
     z-index: 10;
@@ -1263,9 +1280,9 @@ button:hover {
   }
 
   .poster-modal {
-    width: 350px;
-    height: 62vh;
-    margin-top: 50px;
+    width: 330px;
+    height: 90vh;
+    margin-top: -50px;
     margin-left: 20px;
     margin-bottom: 40px;
     align-items: center;
@@ -1286,17 +1303,20 @@ button:hover {
     display: flex;
     background: #ff6b00;
     align-items: center;
+    width: 100px;
+    height: 50px;
+    margin-left: -50px;
   }
 
   .close-modal {
     margin-top: -5px;
-    margin-left: 100px;
     font-weight: 700;
     font-size: 35px;
+    margin-left: auto;
   }
 
   .image-modal {
-    width: 350px;
+    width: 320px;
     height: 212px;
     margin: 5px 0;
   }
@@ -1307,8 +1327,11 @@ button:hover {
   }
 
   .modal-posttitle {
+    margin-top: 100px;
     margin-left: 20px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
+    height: 100px;
+    width: 250px;
   }
 
   .post-modal {
@@ -1317,6 +1340,16 @@ button:hover {
   }
   
   .work-btns {
-    margin: auto;
+    margin: auto; 
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+  }
+
+  #btns-container {
+    border: 3px solid blue;
   }
 }
