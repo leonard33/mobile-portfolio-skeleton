@@ -1099,7 +1099,7 @@ button:hover {
     width: 659px;
     background-size: contain;
     background-repeat: no-repeat;
-    background-position: center center
+    background-position: center center;
   }
 
   .image-modal .job3 {
@@ -1420,7 +1420,7 @@ button:hover {
   }
 
   .btns-container:hover {
-     background-color: rgb(255, 115, 0);
+    background-color: rgb(255, 115, 0);
   }
 
   #modal-list-grid {
