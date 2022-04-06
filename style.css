@@ -352,6 +352,10 @@ form ul li {
   background: orange;
 }
 
+#modal-list-grid {
+  margin-left: 50px;
+}
+
 #modal-list-grid li {
   padding: 5px;
   margin-top: -5px;
@@ -1046,7 +1050,7 @@ button:hover {
 
   .poster-modal {
     align-items: center;
-    width: 60rem;
+    width: 50rem;
     height: 35rem;
     margin-top: 40px;
     margin-bottom: 100px;
@@ -1064,7 +1068,7 @@ button:hover {
   }
 
   .close-modal {
-    margin-left: 20px;
+    margin-left: -100px;
     font-size: 50px;
     cursor: pointer;
   }
@@ -1073,18 +1077,19 @@ button:hover {
     height: 400px;
     width: 550px;
     margin-top: 20px;
+    margin-left: -50px;
   }
 
   .post-modal {
     margin-top: -50px;
-    margin-left: 90px;
+    margin-left: -55px;
     width: 400px;
   }
 
   .modal-posttitle {
     margin-top: 50px;
     width: 60vw;
-    margin-left: 80px;
+    margin-left: -45px;
   }
 
   .btns-container {
@@ -1120,6 +1125,9 @@ button:hover {
 
   #open-modal-projects {
     margin-top: 100px;
+  }
+  .mmodal .grid-container {
+    border: 1px solid greenyellow;
   }
 
   ::-webkit-scrollbar {
@@ -1341,5 +1349,9 @@ button:hover {
     font-size: 16px;
     letter-spacing: 0.03em;
     color: #fff;
+  }
+
+  #btns-container {
+    border: 3px solid blue;
   }
 }
