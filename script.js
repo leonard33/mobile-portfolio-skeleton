@@ -129,9 +129,9 @@ const email = document.querySelector('#email');
 const emailError = document.querySelector('.email-error');
 const submit = document.querySelector('#submit-btn');
 
-function emailValidation(){
-  var reg = /^([a-z0-9_\-\.])+\@([a-z0-9_\-\.])+\.([a-z]{2,4})$/;
-  if (reg.test(email.value) == false) {
+function emailValidation() {
+  const reg = /^([a-z0-9_\-\.])+@([a-z0-9_\-\.])+.([a-z]{2,4})$/;
+  if (reg.test(email.value) === false) {
     emailError.innerHTML = '* Email Address should be lowercase * Form not submited';
     emailError.style.color = 'red';
     email.style.border = '1px solid red';
