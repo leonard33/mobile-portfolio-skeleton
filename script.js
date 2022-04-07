@@ -62,11 +62,11 @@ Object.keys(modals).forEach((key) => {
 const menuButton = document.querySelector('.menu-button');
 const closeButton = document.querySelector('.close');
 const menu = document.querySelector('#menu');
-// const decoration = document.querySelector('.decoration');
+const decoration = document.querySelector('.decoration');
 const personName = document.querySelector('.owner');
 const links = document.querySelectorAll('.menu-item');
 const modal = document.querySelector('.modal');
-// const openProject = document.querySelector('#open-modal-projects');
+const openProject = document.querySelector('#open-modal-projects');
 const closeProject = document.querySelector('.close-modal');
 const popUp = document.querySelectorAll('.job-button');
 
@@ -95,9 +95,9 @@ function closeMenu() {
 }
 closeButton.addEventListener('click', closeMenu);
 
-links.forEach(element => {
+links.forEach((element) => {
   element.onclick = function (event) {
-    if (event.target){
+    if (event.target) {
       menu.style.display = 'none';
       menuButton.style.display = 'block';
       personName.style.display = 'block';
@@ -113,7 +113,7 @@ closeProject.onclick = function (event) {
 };
 
 // const list = document.querySelector('#modal-list-grid');
-popUp.forEach(element => {
+popUp.forEach((element) => {
   element.onclick = function (event) {
     if (event.target) {
       modal.style.display = 'block';

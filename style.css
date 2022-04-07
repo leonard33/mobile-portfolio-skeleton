@@ -772,12 +772,12 @@ button:hover {
   .image-holder {
     width: 684px;
     height: 448px;
+    overflow: hidden;
   }
 
   .image-holder img {
     width: 100%;
-    height: 100%;
-    padding: 0 30px;
+    height: auto;
     object-fit: contain;
   }
 
@@ -1076,54 +1076,6 @@ button:hover {
     width: 659px;
     margin-top: 20px;
     margin-left: 40px;
-    background-size: contain;
-    border: 2px solid red;
-  }
-
-  .image-modal img {
-    height: 448px;
-    width: 659px;
-    object-fit: fill;
-    border: 2px solid red;
-  }
-
-  .image-modal .job1 {
-    background-image: url("./assets/post6.png");
-    height: 448px;
-    width: 659px;
-  }
-
-  .image-modal .job2 {
-    background-image: url("./assets/post3.svg");
-    height: 448px;
-    width: 659px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center center;
-  }
-
-  .image-modal .job3 {
-    background-image: url("./assets/post4.svg");
-    height: 448px;
-    width: 659px;
-  }
-
-  .image-modal .job4 {
-    background-image: url("./assets/post1.svg");
-    height: 448px;
-    width: 659px;
-  }
-
-  .image-modal .job5 {
-    background-image: url("./assets/post7.svg");
-    height: 448px;
-    width: 659px;
-  }
-
-  .image-modal .job6 {
-    background-image: url("./assets/post4.svg");
-    height: 448px;
-    width: 659px;
   }
 
   .post-modal {
@@ -1143,6 +1095,12 @@ button:hover {
     display: flex;
     height: 50px;
     width: 150px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
+    color: #fff;
     margin-top: 250px;
     background: #ff6b00;
     align-items: center;
@@ -1187,6 +1145,7 @@ button:hover {
 
   .icons:hover,
   .btns-container:hover {
+    color: greenyellow;
     background-color: rgb(255, 123, 0);
   }
 
@@ -1344,13 +1303,13 @@ button:hover {
     justify-content: center;
     align-items: center;
     z-index: 10;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, .8);
     display: none;
   }
 
   .poster-modal {
     width: 350px;
-    height: 80vh;
+    height: 60vh;
     padding-top: -70px;
     margin-left: 20px;
     margin-bottom: 40px;
@@ -1375,7 +1334,15 @@ button:hover {
     align-items: center;
     width: 100px;
     height: 40px;
+    color: white;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
     margin-left: -50px;
+    align-items: center;
+    justify-content: space-around;
   }
 
   .close-modal {
@@ -1385,9 +1352,19 @@ button:hover {
   }
 
   .image-modal {
-    width: 320px;
-    height: 200px;
-    margin: 5px 0;
+    width: 311px;
+    height: 220px;
+    margin: 7px 0;
+    margin-right: 5px;
+    object-fit: contain;
+    overflow: hidden;
+  }
+
+  .image-modal img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    overflow: hidden;
   }
 
   .modal-info {
@@ -1419,8 +1396,10 @@ button:hover {
     color: #fff;
   }
 
+  .icons:hover,
   .btns-container:hover {
-    background-color: rgb(255, 115, 0);
+    color: greenyellow;
+    background-color: rgb(255, 123, 0);
   }
 
   #modal-list-grid {
