@@ -539,6 +539,7 @@ form ul li {
 
 form {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -1044,7 +1045,7 @@ button:hover {
     align-items: center;
     z-index: 10;
     background-color: rgba(0, 0, 0, 0.8);
-    display: flex;
+    display: none;
     flex-direction: column;
   }
 
@@ -1169,6 +1170,12 @@ button:hover {
 
   .mmodal .grid-container {
     border: 1px solid greenyellow;
+  }
+
+  .email-error {
+    color: red;
+    font-size: 15px;
+    font-weight: 400;
   }
 
   ::-webkit-scrollbar {
@@ -1430,4 +1437,5 @@ button:hover {
   #btns-container {
     border: 3px solid blue;
   }
+
 }

@@ -243,36 +243,12 @@
             like to chat please get in touch.
           </p>
         </div>
-          <form action="https://formspree.io/f/xbjwkvgr" method="POST">
-            <ul>
-              <li>
-                <input
-                  type="text"
-                  name="name"
-                  placeholder="Full name"
-                  required
-                  maxlength="30"
-                />
-              </li>
-              <li>
-                <input
-                  type="email"
-                  name="email"
-                  placeholder="Email address"
-                  required
-                />
-              </li>
-              <li>
-                <textarea
-                  placeholder="Enter text here"
-                  required
-                  maxlength="500"
-                ></textarea>
-              </li>
-              <li>
-                <button class="submit-btn" type="submit">Get in touch</button>
-              </li>
-            </ul>
+          <form action="https://formspree.io/f/xbjwkvgr" method="POST"> 
+              <input type="text" name="name" placeholder="Full name" required maxlength="30"/>
+              <input type="email"name="email" placeholder="Email address" id="email" required />            
+              <textarea placeholder="Enter text here" required maxlength="500"></textarea>
+              <span class="email-error"></span>
+             <button class="submit-btn" type="submit" id="submit-btn">Get in touch</button>          
           </form>
         </div>
           <ul class="footer-socials">
