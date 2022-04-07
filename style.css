@@ -1320,11 +1320,11 @@ button:hover {
 
   .poster-modal {
     width: 320px;
-    height: 60vh;
+    height: auto;
     padding-top: -70px;
-    margin-left: 33px;
-    margin-bottom: 40px;
-    margin-top: 50px;
+    margin: auto;
+    margin-top: 70px;
+    padding-bottom: 20px;
     align-items: center;
     justify-content: center;
     background-color: white;
@@ -1355,6 +1355,10 @@ button:hover {
     margin-left: -36px;
     cursor: pointer;
     justify-content: space-around;
+  }
+
+  .btns-container a {
+    text-decoration: none;
   }
 
   .close-modal {
