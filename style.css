@@ -1099,7 +1099,7 @@ button:hover {
   }
 
   .heading-modal {
-   margin-left: 20px;
+    margin-left: 20px;
   }
 
   .btns-container {
@@ -1156,7 +1156,7 @@ button:hover {
 
   .btns-container:hover {
     color: #f55800;
-    border: 1px solid #F55800;
+    border: 1px solid #f55800;
     background: #fff5e1;
   }
 
@@ -1354,7 +1354,6 @@ button:hover {
     line-height: 24px;
     margin-left: -36px;
     cursor: pointer;
-    align-items: center;
     justify-content: space-around;
   }
 
@@ -1411,7 +1410,7 @@ button:hover {
 
   .btns-container:hover {
     color: #f55800;
-    border: 1px solid #F55800;
+    border: 1px solid #f55800;
     background: #fff5e1;
   }
 
