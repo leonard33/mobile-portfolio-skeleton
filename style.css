@@ -352,6 +352,16 @@ form ul li {
   background: orange;
 }
 
+#modal-list-grid {
+  margin-left: 50px;
+}
+
+#modal-list-grid li {
+  padding: 5px;
+  margin-top: -5px;
+  border: 1px solid black;
+}
+
 .job-button {
   display: flex;
   width: 325px;
@@ -697,7 +707,7 @@ button:hover {
 
   .decoration {
     display: none;
-    z-index: 5px;
+    z-index: 5;
   }
 
   .banner * {
@@ -762,12 +772,12 @@ button:hover {
   .image-holder {
     width: 684px;
     height: 448px;
+    overflow: hidden;
   }
 
   .image-holder img {
     width: 100%;
-    height: 100%;
-    padding: 0 30px;
+    height: auto;
     object-fit: contain;
   }
 
@@ -782,7 +792,7 @@ button:hover {
   }
 
   .post-title h3 {
-    width: 458px;
+    width: 700px;
     height: 48px;
     font-family: 'Crete Round', serif;
     font-style: normal;
@@ -832,10 +842,6 @@ button:hover {
   }
 
   .job1 {
-    display: none;
-  }
-
-  .job7 {
     background-image: url("./assets/post6.png");
   }
 
@@ -860,6 +866,26 @@ button:hover {
   }
 
   .job-button {
+    width: 367px;
+    display: none;
+    margin-top: 385px;
+  }
+
+  .job1:hover .job-button,
+  .job2:hover .job-button,
+  .job3:hover .job-button,
+  .job4:hover .job-button,
+  .job5:hover .job-button,
+  .job6:hover .job-button {
+    display: block;
+  }
+
+  .job1:hover *,
+  .job2:hover *,
+  .job3:hover *,
+  .job4:hover *,
+  .job5:hover *,
+  .job6:hover * {
     display: none;
   }
 
@@ -1006,6 +1032,145 @@ button:hover {
     display: none;
   }
 
+  .modal {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    flex-direction: column;
+  }
+
+  .poster-modal {
+    align-items: center;
+    width: 1000px;
+    height: 550px;
+    margin-top: 70px;
+    margin-left: 170px;
+    background-color: white;
+    align-self: center;
+    justify-self: center;
+  }
+
+  .btns {
+    display: flex;
+    margin-top: 5px;
+    margin-left: -300px;
+    width: 100rem;
+    height: 100px;
+    justify-content: space-around;
+  }
+
+  .close-modal {
+    margin-left: -500px;
+    font-size: 50px;
+    cursor: pointer;
+  }
+
+  .image-modal {
+    height: 350px;
+    width: 540px;
+    margin-top: 20px;
+    margin-left: 40px;
+    word-wrap: break-word;
+  }
+
+  .post-modal {
+    margin-top: 30px;
+    margin-left: 135px;
+    width: 380px;
+    height: 300px;
+  }
+
+  .paragraph {
+    width: 424px;
+    margin-left: 1000px;
+  }
+
+  .modal-posttitle {
+    margin-top: 50px;
+    width: 73vw;
+    margin-left: 20px;
+    justify-content: space-between;
+  }
+
+  .heading-modal {
+    margin-left: 20px;
+  }
+
+  .btns-container {
+    display: flex;
+    height: 50px;
+    width: 150px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 17px;
+    line-height: 24px;
+    color: #fff;
+    margin-top: 250px;
+    background: #ff6b00;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: -150px;
+    cursor: pointer;
+  }
+
+  .icons {
+    width: 22.99px;
+    height: 25px;
+    margin-right: 20px;
+  }
+
+  .work-btns {
+    font-family: "Inter", sans-serif;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #fff;
+    background-color: rgb(230, 101, 16);
+    margin-left: 10px;
+    padding: 2px 5px;
+    border: 1px solid blue;
+  }
+
+  .working-btns {
+    font-family: "Inter", sans-serif;
+    font-weight: 900;
+    font-size: 17px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #fff;
+  }
+
+  .btns-container:hover {
+    color: #f55800;
+    border: 1px solid #f55800;
+    background: #fff5e1;
+  }
+
+  #open-modal-projects {
+    margin-top: 100px;
+  }
+
+  .mmodal .grid-container {
+    border: 1px solid greenyellow;
+  }
+
   ::-webkit-scrollbar {
     display: none;
   }
@@ -1141,5 +1306,128 @@ button:hover {
     display: flex;
     align-items: flex-end;
     justify-content: center;
+  }
+
+  .modal {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    flex-direction: column;
+  }
+
+  .poster-modal {
+    width: 320px;
+    height: 85vh;
+    padding-top: -70px;
+    margin-left: 18px;
+    margin-bottom: 40px;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    align-self: center;
+    justify-self: center;
+  }
+
+  .btns {
+    display: flex;
+    margin-top: -20px;
+    margin-bottom: 10px;
+    justify-content: space-around;
+    margin-right: 20px;
+    padding-left: -200px;
+    width: 350px;
+    align-items: center;
+  }
+
+  .btns-container {
+    display: flex;
+    background: #ff6b00;
+    align-items: center;
+    width: 130px;
+    height: 40px;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
+    margin-left: -36px;
+    cursor: pointer;
+    justify-content: space-around;
+  }
+
+  .close-modal {
+    margin-top: -5px;
+    font-weight: 700;
+    font-size: 35px;
+  }
+
+  .image-modal {
+    width: 311px;
+    height: 220px;
+    margin: 7px 0;
+    margin-right: 5px;
+    object-fit: contain;
+    overflow: hidden;
+  }
+
+  .image-modal img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    overflow: hidden;
+  }
+
+  .modal-info {
+    margin-top: 20px;
+    margin-left: 5px;
+  }
+
+  .modal-posttitle {
+    font-size: 18px;
+    margin-left: 2px;
+    margin-bottom: 8px;
+    height: 70px;
+    width: 300px;
+    justify-content: space-between;
+  }
+
+  .post-modal {
+    margin: auto;
+    margin-left: 10px;
+  }
+
+  .working-btns {
+    margin: auto;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0.03em;
+    color: #fff;
+  }
+
+  .btns-container:hover {
+    color: #f55800;
+    border: 1px solid #f55800;
+    background: #fff5e1;
+  }
+
+  #modal-list-grid {
+    margin-top: -15px;
+    margin-left: -1px;
+    margin-bottom: -2px;
+  }
+
+  #btns-container {
+    border: 3px solid blue;
   }
 }
