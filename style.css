@@ -1049,46 +1049,57 @@ button:hover {
 
   .poster-modal {
     align-items: center;
-    width: 1156px;
-    height: 631px;
-    margin-top: 20px;
-    margin-left: 70px;
+    width: 1000px;
+    height: 550px;
+    margin-top: 70px;
+    margin-left: 170px;
     background-color: white;
   }
 
   .btns {
     display: flex;
-    margin-top: 40px;
-    margin-left: -350px;
+    margin-top: 5px;
+    margin-left: -300px;
     width: 100rem;
     height: 100px;
     justify-content: space-around;
   }
 
   .close-modal {
-    margin-left: -100px;
+    margin-left: -500px;
     font-size: 50px;
     cursor: pointer;
   }
 
   .image-modal {
-    height: 448px;
-    width: 659px;
+    height: 350px;
+    width: 540px;
     margin-top: 20px;
     margin-left: 40px;
+    word-wrap: break-word;
   }
 
   .post-modal {
-    margin-top: -20px;
-    margin-left: 255px;
+    margin-top: 30px;
+    margin-left: 135px;
+    width: 380px;
+    height: 300px;
+  }
+
+  .paragraph {
     width: 424px;
-    height: 336px;
+    margin-left: 1000px;
   }
 
   .modal-posttitle {
     margin-top: 50px;
-    width: 60vw;
-    margin-left: -45px;
+    width: 73vw;
+    margin-left: 20px;
+    justify-content: space-between;
+  }
+
+  .heading-modal {
+   margin-left: 20px;
   }
 
   .btns-container {
@@ -1097,7 +1108,7 @@ button:hover {
     width: 150px;
     font-family: 'Inter', sans-serif;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 900;
     font-size: 17px;
     line-height: 24px;
     color: #fff;
@@ -1143,10 +1154,10 @@ button:hover {
     color: #fff;
   }
 
-  .icons:hover,
   .btns-container:hover {
-    color: greenyellow;
-    background-color: rgb(255, 123, 0);
+    color: #f55800;
+    border: 1px solid #F55800;
+    background: #fff5e1;
   }
 
   #open-modal-projects {
@@ -1308,10 +1319,10 @@ button:hover {
   }
 
   .poster-modal {
-    width: 350px;
+    width: 320px;
     height: 60vh;
     padding-top: -70px;
-    margin-left: 20px;
+    margin-left: 33px;
     margin-bottom: 40px;
     margin-top: 50px;
     align-items: center;
@@ -1326,13 +1337,14 @@ button:hover {
     margin-right: 20px;
     padding-left: -200px;
     width: 350px;
+    align-items: center;
   }
 
   .btns-container {
     display: flex;
     background: #ff6b00;
     align-items: center;
-    width: 100px;
+    width: 130px;
     height: 40px;
     color: white;
     font-family: 'Inter', sans-serif;
@@ -1340,8 +1352,9 @@ button:hover {
     font-weight: 700;
     font-size: 17px;
     line-height: 24px;
-    margin-left: -50px;
+    margin-left: -36px;
     cursor: pointer;
+    align-items: center;
     justify-content: space-around;
   }
 
@@ -1373,7 +1386,7 @@ button:hover {
   }
 
   .modal-posttitle {
-    font-size: 15px;
+    font-size: 18px;
     margin-left: 2px;
     margin-bottom: 8px;
     height: 70px;
@@ -1396,10 +1409,10 @@ button:hover {
     color: #fff;
   }
 
-  .icons:hover,
   .btns-container:hover {
-    color: greenyellow;
-    background-color: rgb(255, 123, 0);
+    color: #f55800;
+    border: 1px solid #F55800;
+    background: #fff5e1;
   }
 
   #modal-list-grid {
