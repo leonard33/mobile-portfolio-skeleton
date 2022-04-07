@@ -1095,7 +1095,7 @@ button:hover {
     display: flex;
     height: 50px;
     width: 150px;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 17px;
@@ -1303,7 +1303,7 @@ button:hover {
     justify-content: center;
     align-items: center;
     z-index: 10;
-    background-color: rgba(0, 0, 0, .8);
+    background-color: rgba(0, 0, 0, 0.8);
     display: none;
   }
 
@@ -1335,13 +1335,13 @@ button:hover {
     width: 100px;
     height: 40px;
     color: white;
-    font-family: 'Inter';
+    font-family: 'Inter',sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 17px;
     line-height: 24px;
     margin-left: -50px;
-    align-items: center;
+    cursor: pointer;
     justify-content: space-around;
   }
 
