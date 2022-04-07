@@ -66,7 +66,6 @@ const menu = document.querySelector('#menu');
 const personName = document.querySelector('.owner');
 const links = document.querySelectorAll('.menu-item');
 const modal = document.querySelector('.modal');
-const openProject = document.querySelector('#open-modal-projects');
 const closeProject = document.querySelector('.close-modal');
 const popUp = document.querySelectorAll('.job-button');
 
