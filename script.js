@@ -124,3 +124,8 @@ popUp.forEach((element) => {
   };
 });
 
+// Email Validations lowercase
+const email = document.querySelector('#email');
+const emailError = document.querySelector('.email-error');
+const submit = document.querySelector('#submit-btn');
+
