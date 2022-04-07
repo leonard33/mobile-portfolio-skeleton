@@ -1044,7 +1044,8 @@ button:hover {
     align-items: center;
     z-index: 10;
     background-color: rgba(0, 0, 0, 0.8);
-    display: none;
+    display: flex;
+    flex-direction: column;
   }
 
   .poster-modal {
@@ -1054,6 +1055,8 @@ button:hover {
     margin-top: 70px;
     margin-left: 170px;
     background-color: white;
+    align-self: center;
+    justify-self: center;
   }
 
   .btns {
@@ -1315,24 +1318,26 @@ button:hover {
     align-items: center;
     z-index: 10;
     background-color: rgba(0, 0, 0, 0.8);
-    display: none;
+    display: flex;
+    flex-direction: column;
   }
 
   .poster-modal {
     width: 320px;
-    height: 82vh;
+    height: 83vh;
     padding-top: -70px;
-    margin-left: 33px;
     margin-bottom: 40px;
     margin-top: 50px;
     align-items: center;
     justify-content: center;
     background-color: white;
+    align-self: center;
+    justify-self: center;
   }
 
   .btns {
     display: flex;
-    margin-top: -40px;
+    margin-top: -20px;
     justify-content: space-around;
     margin-right: 20px;
     padding-left: -200px;
