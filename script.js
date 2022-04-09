@@ -143,3 +143,34 @@ function emailValidation() {
 }
 
 submit.addEventListener('click', emailValidation);
+
+// LOCAL STORAGE
+
+const emails = document.querySelector('#email');
+const myname = document.querySelector('#name');
+const text = document.querySelector('#text');
+
+const formdata = {
+  name: '',
+  email: '',
+  text: '',
+};
+emails.addEventListener('input', () => {
+  formdata.email = emails.value;
+  localStorage.setItem('formdata', JSON.stringify(formdata));
+});
+myname.addEventListener('input', () => {
+  formdata.name = myname.value;
+  localStorage.setItem('formdata', JSON.stringify(formdata));
+});
+text.addEventListener('input', () => {
+  formdata.text = text.value;
+  localStorage.setItem('formdata', JSON.stringify(formdata));
+});
+
+if (localStorage.getItem('formdata')) {
+  const formdata = JSON.parse(localStorage.getItem('formdata'));
+  emails.value = formdata.email;
+  myname.value = formdata.name;
+  text.value = formdata.text;
+}
