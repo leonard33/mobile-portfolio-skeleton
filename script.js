@@ -152,7 +152,7 @@ const text = document.querySelector('#text');
 
 const formdata = {
   name: '',
-  email:'',
+  email: '',
   text: '',
 };
 emails.addEventListener('input', () => {
