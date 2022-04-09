@@ -146,11 +146,10 @@ submit.addEventListener('click', emailValidation);
 
 // LOCAL STORAGE
 
-function store (event) {
-  
-const email = document.querySelector('#email');
-const myname = document.querySelector('#name');
-const text = document.querySelector('#text');
+function store (){  
+  const email = document.querySelector('#email');
+  const myname = document.querySelector('#name');
+  const text = document.querySelector('#text');
 
   localStorage.setItem('names', myname.value);
   localStorage.setItem('mytext', text.value);
@@ -158,20 +157,17 @@ const text = document.querySelector('#text');
 
  /* const isname = localStorage.getItem('names',myname.value);
   const istext = localStorage.getItem('mytext',text.value);
-  const isemail = localStorage.getItem('myemail',email.value);*/
+  const isemail = localStorage.getItem('myemail',email.value); */
 
-const formData = JSON.stringify (localStorage.getItem({'names': myname.value}, {'mytext': text.value}, {'myemail': email.value}));
+  const formData = JSON.stringify(localStorage.getItem({ 'names': myname.value }, { 'mytext': text.value }, {'myemail': email.value}));
 
  /* const formelement = {'names':isname,'mytext':istext,'myemail':isemail};
- JSON.stringify(formelement);
+  JSON.stringify(formelement);
 
- document.getElementById('form-data').innerHTML = myjson;*/
+  document.getElementById('form-data').innerHTML = myjson;*/
  console.log(formData);
-  
-   myname.innerHTML = `${myname.value}`;
-   text.innerHTML = `${text.value}`;
-   email.innerHTML = `${email.value}`;
-
-  
+  myname.innerHTML = `${myname.value}`;
+  text.innerHTML = `${text.value}`;
+  email.innerHTML = `${email.value}`;
 }
 submit.addEventListener('click', store);
