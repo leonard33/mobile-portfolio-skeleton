@@ -146,32 +146,33 @@ submit.addEventListener('click', emailValidation);
 
 // LOCAL STORAGE
 
-function store() {
-  const email = document.querySelector('#email');
+  const emails = document.querySelector('#email');
   const myname = document.querySelector('#name');
   const text = document.querySelector('#text');
 
-  localStorage.setItem('names', myname.value);
-  localStorage.setItem('mytext', text.value);
-  localStorage.setItem('myemail', email.value);
+  const formdata = {
+     name : '',
+     email :'',
+     text : '',
+    };
+    emails.addEventListener('input', () => {
+      formdata.email = emails.value;
+      localStorage.setItem('formdata', JSON.stringify(formdata));
+    });
+    myname.addEventListener('input', () => {
+      formdata.name = myname.value;
+      localStorage.setItem('formdata', JSON.stringify(formdata));
+    });
+    text.addEventListener('input', () => {
+      formdata.text = text.value;
+      localStorage.setItem('formdata', JSON.stringify(formdata));
+    });
 
-  /* const isname = localStorage.getItem('names',myname.value);
-  const istext = localStorage.getItem('mytext',text.value);
-  const isemail = localStorage.getItem('myemail',email.value); */
+    if(localStorage.getItem('formdata')){
+      const formdata = JSON.parse(localStorage.getItem('formdata'));
+      emails.value = formdata.email;
+      myname.value = formdata.name;
+      text.value = formdata.text;
+    }
 
-  const formData = JSON.stringify(localStorage.getItem(
-    { names: myname.value },
-    { mytext: text.value },
-    { myemail: email.value },
-  ));
-
-  /* const formelement = {'names':isname,'mytext':istext,'myemail':isemail};
-  JSON.stringify(formelement);
-
-  document.getElementById('form-data').innerHTML = myjson; */
-  console.log(formData);
-  myname.innerHTML = `${myname.value}`;
-  text.innerHTML = `${text.value}`;
-  email.innerHTML = `${email.value}`;
-}
 submit.addEventListener('click', store);
