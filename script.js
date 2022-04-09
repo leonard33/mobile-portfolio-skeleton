@@ -159,9 +159,12 @@ function store() {
   const istext = localStorage.getItem('mytext',text.value);
   const isemail = localStorage.getItem('myemail',email.value); */
 
-  const formData = JSON.stringify(localStorage.getItem({ names: myname.value }, { mytext: text.value }, { myemail: email.value }));
+  const formData = JSON.stringify(localStorage.getItem(
+      { names: myname.value },
+      { mytext: text.value },
+      { myemail: email.value }));
 
-  /* const formelement = {'names':isname,'mytext':istext,'myemail':isemail};
+   /* const formelement = {'names':isname,'mytext':istext,'myemail':isemail};
   JSON.stringify(formelement);
 
   document.getElementById('form-data').innerHTML = myjson;*/
