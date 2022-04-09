@@ -162,7 +162,7 @@ function store() {
   const formData = JSON.stringify(localStorage.getItem(
     { names: myname.value },
     { mytext: text.value },
-    { myemail: email.value }
+    { myemail: email.value },
   ));
 
   /* const formelement = {'names':isname,'mytext':istext,'myemail':isemail};
