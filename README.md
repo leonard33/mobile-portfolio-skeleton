@@ -1,6 +1,7 @@
 # My Web Portfolio
 
  This is a Microverse personal portfolio project created using a Figma template design.
+ This project is all about having a responsive mobile view and web view of a potrfolio project.
  
 ## Built With
 
